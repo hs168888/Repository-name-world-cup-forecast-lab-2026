@@ -1,0 +1,12 @@
+{
+  "lastUpdated": "2026-06-06",
+  "rankingDate": "2026-06-06",
+  "eloDate": "model-estimate",
+  "oddsDate": "2026-06-03",
+  "sourceLabel": "完整小组赛程：FIFA 官方赛程页核对，FourFourTwo 完整列表整理",
+  "notes": [
+    "Edit this file when you have a curated data update.",
+    "GitHub Actions will merge it into data/worldcup-data.js on schedule or manual run.",
+    "Only include fields that should change."
+  ]
+}

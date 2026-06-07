@@ -1,0 +1,38 @@
+name: Update forecast data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Merge latest curated update
+        run: node scripts/update-data.js data-updates/latest.json
+
+      - name: Validate JavaScript
+        run: |
+          node --check app.js
+          node --check data/worldcup-data.js
+          node --check scripts/update-data.js
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update forecast data"
+          file_pattern: data/worldcup-data.js
+
