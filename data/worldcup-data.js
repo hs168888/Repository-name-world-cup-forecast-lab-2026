@@ -1,0 +1,1591 @@
+window.WORLD_CUP_DATA = {
+  "lastUpdated": "2026-06-06",
+  "rankingDate": "2026-06-06",
+  "eloDate": "model-estimate",
+  "oddsDate": "2026-06-03",
+  "sourceLabel": "完整小组赛程：FIFA 官方赛程页核对，FourFourTwo 完整列表整理",
+  "dataQuality": {
+    "confirmed": [
+      "2026 A-L 分组",
+      "48 队赛制",
+      "32 强晋级规则",
+      "72 场小组赛日期/城市/球场",
+      "48 队夺冠赔率覆盖值"
+    ],
+    "estimated": [
+      "Elo",
+      "伤病影响",
+      "赔率校准",
+      "旅途疲劳",
+      "气候适应",
+      "阵容深度",
+      "Elo 未接完整真实表时使用模型估算",
+      "48 队攻防/门将/定位球风格参数"
+    ],
+    "nextFeeds": [
+      "实时 FIFA 排名",
+      "World Football Elo",
+      "市场赔率",
+      "伤病名单",
+      "赛程城市/球场"
+    ]
+  },
+  "groups": {
+    "A": [
+      "墨西哥",
+      "南非",
+      "韩国",
+      "捷克"
+    ],
+    "B": [
+      "加拿大",
+      "瑞士",
+      "卡塔尔",
+      "波黑"
+    ],
+    "C": [
+      "巴西",
+      "摩洛哥",
+      "海地",
+      "苏格兰"
+    ],
+    "D": [
+      "美国",
+      "巴拉圭",
+      "澳大利亚",
+      "土耳其"
+    ],
+    "E": [
+      "德国",
+      "库拉索",
+      "科特迪瓦",
+      "厄瓜多尔"
+    ],
+    "F": [
+      "荷兰",
+      "日本",
+      "突尼斯",
+      "瑞典"
+    ],
+    "G": [
+      "比利时",
+      "埃及",
+      "伊朗",
+      "新西兰"
+    ],
+    "H": [
+      "西班牙",
+      "佛得角",
+      "沙特阿拉伯",
+      "乌拉圭"
+    ],
+    "I": [
+      "法国",
+      "塞内加尔",
+      "挪威",
+      "伊拉克"
+    ],
+    "J": [
+      "阿根廷",
+      "阿尔及利亚",
+      "奥地利",
+      "约旦"
+    ],
+    "K": [
+      "葡萄牙",
+      "乌兹别克斯坦",
+      "哥伦比亚",
+      "刚果民主共和国"
+    ],
+    "L": [
+      "英格兰",
+      "克罗地亚",
+      "加纳",
+      "巴拿马"
+    ]
+  },
+  "fifaRanks": {
+    "法国": 1,
+    "西班牙": 2,
+    "阿根廷": 3,
+    "英格兰": 4,
+    "葡萄牙": 5,
+    "巴西": 6,
+    "荷兰": 7,
+    "摩洛哥": 8,
+    "比利时": 9,
+    "德国": 10,
+    "克罗地亚": 11,
+    "哥伦比亚": 13,
+    "塞内加尔": 14,
+    "墨西哥": 15,
+    "美国": 16,
+    "乌拉圭": 17,
+    "日本": 18,
+    "瑞士": 19,
+    "伊朗": 21,
+    "土耳其": 22,
+    "厄瓜多尔": 23,
+    "奥地利": 24,
+    "韩国": 25,
+    "澳大利亚": 27,
+    "阿尔及利亚": 28,
+    "埃及": 29,
+    "加拿大": 30,
+    "挪威": 31,
+    "巴拿马": 33,
+    "科特迪瓦": 34,
+    "瑞典": 38,
+    "巴拉圭": 40,
+    "捷克": 41,
+    "苏格兰": 43,
+    "突尼斯": 44,
+    "刚果民主共和国": 46,
+    "乌兹别克斯坦": 50,
+    "卡塔尔": 55,
+    "伊拉克": 57,
+    "南非": 60,
+    "沙特阿拉伯": 61,
+    "约旦": 63,
+    "波黑": 65,
+    "佛得角": 69,
+    "加纳": 74,
+    "库拉索": 82,
+    "海地": 83,
+    "新西兰": 85
+  },
+  "hostTeams": [
+    "墨西哥",
+    "加拿大",
+    "美国"
+  ],
+  "teamOverrides": {
+    "法国": {
+      "elo": 2083,
+      "marketOdds": 6.5,
+      "attack": 94,
+      "defense": 91,
+      "goalkeeper": 88,
+      "squadValue": 96,
+      "setPieces": 82
+    },
+    "西班牙": {
+      "elo": 2076,
+      "marketOdds": 12,
+      "attack": 91,
+      "defense": 89,
+      "goalkeeper": 82,
+      "squadValue": 94,
+      "setPieces": 78
+    },
+    "阿根廷": {
+      "elo": 2068,
+      "marketOdds": 7.5,
+      "attack": 90,
+      "defense": 88,
+      "goalkeeper": 87,
+      "squadValue": 93,
+      "setPieces": 81
+    },
+    "英格兰": {
+      "elo": 2059,
+      "marketOdds": 9.5,
+      "attack": 89,
+      "defense": 88,
+      "goalkeeper": 83,
+      "squadValue": 95,
+      "setPieces": 90
+    },
+    "葡萄牙": {
+      "elo": 2044,
+      "marketOdds": 16,
+      "attack": 90,
+      "defense": 85,
+      "goalkeeper": 84,
+      "squadValue": 92,
+      "setPieces": 84
+    },
+    "巴西": {
+      "elo": 2038,
+      "marketOdds": 8,
+      "attack": 92,
+      "defense": 84,
+      "goalkeeper": 89,
+      "squadValue": 94,
+      "setPieces": 80
+    },
+    "荷兰": {
+      "elo": 2012,
+      "marketOdds": 19,
+      "attack": 86,
+      "defense": 87,
+      "goalkeeper": 83,
+      "squadValue": 88,
+      "setPieces": 84
+    },
+    "德国": {
+      "elo": 1998,
+      "marketOdds": 14,
+      "attack": 85,
+      "defense": 83,
+      "goalkeeper": 86,
+      "squadValue": 90,
+      "setPieces": 88
+    },
+    "比利时": {
+      "elo": 1986,
+      "marketOdds": 31,
+      "attack": 84,
+      "defense": 80,
+      "goalkeeper": 82,
+      "squadValue": 86,
+      "setPieces": 82
+    },
+    "摩洛哥": {
+      "elo": 1978,
+      "marketOdds": 61,
+      "attack": 78,
+      "defense": 86,
+      "goalkeeper": 85,
+      "squadValue": 80,
+      "setPieces": 79
+    },
+    "美国": {
+      "marketOdds": 23,
+      "attack": 78,
+      "defense": 76,
+      "goalkeeper": 78,
+      "squadValue": 80,
+      "setPieces": 77
+    },
+    "克罗地亚": {
+      "marketOdds": 41,
+      "attack": 78,
+      "defense": 82,
+      "goalkeeper": 80,
+      "squadValue": 82,
+      "setPieces": 83
+    },
+    "乌拉圭": {
+      "marketOdds": 51,
+      "attack": 80,
+      "defense": 84,
+      "goalkeeper": 81,
+      "squadValue": 83,
+      "setPieces": 84
+    },
+    "哥伦比亚": {
+      "marketOdds": 56,
+      "attack": 81,
+      "defense": 79,
+      "goalkeeper": 79,
+      "squadValue": 82,
+      "setPieces": 80
+    },
+    "墨西哥": {
+      "marketOdds": 71,
+      "attack": 76,
+      "defense": 77,
+      "goalkeeper": 78,
+      "squadValue": 76,
+      "setPieces": 78
+    },
+    "日本": {
+      "marketOdds": 81,
+      "attack": 79,
+      "defense": 77,
+      "goalkeeper": 76,
+      "squadValue": 79,
+      "setPieces": 75
+    },
+    "瑞士": {
+      "marketOdds": 91,
+      "attack": 76,
+      "defense": 80,
+      "goalkeeper": 80,
+      "squadValue": 78,
+      "setPieces": 80
+    },
+    "塞内加尔": {
+      "marketOdds": 101,
+      "attack": 77,
+      "defense": 82,
+      "goalkeeper": 83,
+      "squadValue": 78,
+      "setPieces": 79
+    },
+    "韩国": {
+      "marketOdds": 151,
+      "attack": 76,
+      "defense": 74,
+      "goalkeeper": 75,
+      "squadValue": 76,
+      "setPieces": 74
+    },
+    "加拿大": {
+      "marketOdds": 151,
+      "attack": 76,
+      "defense": 71,
+      "goalkeeper": 72,
+      "squadValue": 76,
+      "setPieces": 72
+    },
+    "厄瓜多尔": {
+      "marketOdds": 151,
+      "attack": 75,
+      "defense": 78,
+      "goalkeeper": 76,
+      "squadValue": 76,
+      "setPieces": 75
+    },
+    "奥地利": {
+      "marketOdds": 151,
+      "attack": 77,
+      "defense": 79,
+      "goalkeeper": 78,
+      "squadValue": 77,
+      "setPieces": 79
+    },
+    "土耳其": {
+      "marketOdds": 181,
+      "attack": 80,
+      "defense": 73,
+      "goalkeeper": 76,
+      "squadValue": 78,
+      "setPieces": 80
+    },
+    "澳大利亚": {
+      "marketOdds": 201,
+      "attack": 70,
+      "defense": 75,
+      "goalkeeper": 74,
+      "squadValue": 67,
+      "setPieces": 80
+    },
+    "科特迪瓦": {
+      "marketOdds": 201,
+      "attack": 75,
+      "defense": 73,
+      "goalkeeper": 74,
+      "squadValue": 74,
+      "setPieces": 75
+    },
+    "挪威": {
+      "marketOdds": 201,
+      "attack": 86,
+      "defense": 72,
+      "goalkeeper": 76,
+      "squadValue": 82,
+      "setPieces": 80
+    },
+    "巴拉圭": {
+      "marketOdds": 251,
+      "attack": 70,
+      "defense": 78,
+      "goalkeeper": 78,
+      "squadValue": 70,
+      "setPieces": 76
+    },
+    "伊朗": {
+      "marketOdds": 251,
+      "attack": 72,
+      "defense": 78,
+      "goalkeeper": 76,
+      "squadValue": 70,
+      "setPieces": 77
+    },
+    "埃及": {
+      "marketOdds": 251,
+      "attack": 77,
+      "defense": 74,
+      "goalkeeper": 75,
+      "squadValue": 75,
+      "setPieces": 76
+    },
+    "阿尔及利亚": {
+      "marketOdds": 251,
+      "attack": 76,
+      "defense": 74,
+      "goalkeeper": 74,
+      "squadValue": 74,
+      "setPieces": 76
+    },
+    "刚果民主共和国": {
+      "marketOdds": 251,
+      "attack": 73,
+      "defense": 72,
+      "goalkeeper": 72,
+      "squadValue": 70,
+      "setPieces": 74
+    },
+    "波黑": {
+      "marketOdds": 301,
+      "attack": 69,
+      "defense": 69,
+      "goalkeeper": 71,
+      "squadValue": 66,
+      "setPieces": 72
+    },
+    "苏格兰": {
+      "marketOdds": 301,
+      "attack": 70,
+      "defense": 75,
+      "goalkeeper": 74,
+      "squadValue": 70,
+      "setPieces": 82
+    },
+    "沙特阿拉伯": {
+      "marketOdds": 301,
+      "attack": 67,
+      "defense": 69,
+      "goalkeeper": 70,
+      "squadValue": 66,
+      "setPieces": 71
+    },
+    "乌兹别克斯坦": {
+      "marketOdds": 301,
+      "attack": 70,
+      "defense": 72,
+      "goalkeeper": 72,
+      "squadValue": 68,
+      "setPieces": 73
+    },
+    "加纳": {
+      "marketOdds": 301,
+      "attack": 70,
+      "defense": 68,
+      "goalkeeper": 69,
+      "squadValue": 68,
+      "setPieces": 72
+    },
+    "瑞典": {
+      "marketOdds": 401,
+      "attack": 73,
+      "defense": 76,
+      "goalkeeper": 76,
+      "squadValue": 73,
+      "setPieces": 83
+    },
+    "捷克": {
+      "marketOdds": 501,
+      "attack": 71,
+      "defense": 76,
+      "goalkeeper": 75,
+      "squadValue": 71,
+      "setPieces": 82
+    },
+    "南非": {
+      "marketOdds": 501,
+      "attack": 68,
+      "defense": 70,
+      "goalkeeper": 70,
+      "squadValue": 64,
+      "setPieces": 72
+    },
+    "突尼斯": {
+      "marketOdds": 501,
+      "attack": 68,
+      "defense": 75,
+      "goalkeeper": 74,
+      "squadValue": 66,
+      "setPieces": 74
+    },
+    "伊拉克": {
+      "marketOdds": 501,
+      "attack": 66,
+      "defense": 70,
+      "goalkeeper": 70,
+      "squadValue": 63,
+      "setPieces": 71
+    },
+    "约旦": {
+      "marketOdds": 501,
+      "attack": 66,
+      "defense": 68,
+      "goalkeeper": 69,
+      "squadValue": 62,
+      "setPieces": 70
+    },
+    "巴拿马": {
+      "marketOdds": 501,
+      "attack": 67,
+      "defense": 69,
+      "goalkeeper": 70,
+      "squadValue": 61,
+      "setPieces": 72
+    },
+    "卡塔尔": {
+      "marketOdds": 801,
+      "attack": 67,
+      "defense": 68,
+      "goalkeeper": 70,
+      "squadValue": 65,
+      "setPieces": 72
+    },
+    "海地": {
+      "marketOdds": 1001,
+      "attack": 64,
+      "defense": 64,
+      "goalkeeper": 65,
+      "squadValue": 58,
+      "setPieces": 68
+    },
+    "库拉索": {
+      "marketOdds": 1001,
+      "attack": 63,
+      "defense": 65,
+      "goalkeeper": 66,
+      "squadValue": 58,
+      "setPieces": 68
+    },
+    "新西兰": {
+      "marketOdds": 1001,
+      "attack": 62,
+      "defense": 66,
+      "goalkeeper": 67,
+      "squadValue": 56,
+      "setPieces": 72
+    },
+    "佛得角": {
+      "marketOdds": 1001,
+      "attack": 66,
+      "defense": 70,
+      "goalkeeper": 70,
+      "squadValue": 62,
+      "setPieces": 70
+    }
+  },
+  "countryCodes": {
+    "墨西哥": "mx",
+    "南非": "za",
+    "韩国": "kr",
+    "捷克": "cz",
+    "加拿大": "ca",
+    "瑞士": "ch",
+    "卡塔尔": "qa",
+    "波黑": "ba",
+    "巴西": "br",
+    "摩洛哥": "ma",
+    "海地": "ht",
+    "苏格兰": "gb-sct",
+    "美国": "us",
+    "巴拉圭": "py",
+    "澳大利亚": "au",
+    "土耳其": "tr",
+    "德国": "de",
+    "库拉索": "cw",
+    "科特迪瓦": "ci",
+    "厄瓜多尔": "ec",
+    "荷兰": "nl",
+    "日本": "jp",
+    "突尼斯": "tn",
+    "瑞典": "se",
+    "比利时": "be",
+    "埃及": "eg",
+    "伊朗": "ir",
+    "新西兰": "nz",
+    "西班牙": "es",
+    "佛得角": "cv",
+    "沙特阿拉伯": "sa",
+    "乌拉圭": "uy",
+    "法国": "fr",
+    "塞内加尔": "sn",
+    "挪威": "no",
+    "伊拉克": "iq",
+    "阿根廷": "ar",
+    "阿尔及利亚": "dz",
+    "奥地利": "at",
+    "约旦": "jo",
+    "葡萄牙": "pt",
+    "乌兹别克斯坦": "uz",
+    "哥伦比亚": "co",
+    "刚果民主共和国": "cd",
+    "英格兰": "gb-eng",
+    "克罗地亚": "hr",
+    "加纳": "gh",
+    "巴拿马": "pa"
+  },
+  "fixtureTemplate": [
+    {
+      "date": "2026-06-11",
+      "city": "墨西哥城",
+      "stadium": "Mexico City Stadium",
+      "source": "official"
+    },
+    {
+      "date": "2026-06-11",
+      "city": "瓜达拉哈拉",
+      "stadium": "Estadio Guadalajara",
+      "source": "official"
+    },
+    {
+      "date": "2026-06-17",
+      "city": "亚特兰大",
+      "stadium": "Mercedes-Benz Stadium",
+      "source": "official"
+    },
+    {
+      "date": "2026-06-18",
+      "city": "洛杉矶",
+      "stadium": "Los Angeles Stadium",
+      "source": "official"
+    },
+    {
+      "date": "2026-06-24",
+      "city": "墨西哥城",
+      "stadium": "Mexico City Stadium",
+      "source": "official"
+    },
+    {
+      "date": "2026-06-24",
+      "city": "蒙特雷",
+      "stadium": "Estadio Monterrey",
+      "source": "official"
+    }
+  ],
+  "confedMap": {
+    "墨西哥": "CONCACAF",
+    "加拿大": "CONCACAF",
+    "美国": "CONCACAF",
+    "库拉索": "CONCACAF",
+    "海地": "CONCACAF",
+    "巴拿马": "CONCACAF",
+    "巴西": "CONMEBOL",
+    "阿根廷": "CONMEBOL",
+    "哥伦比亚": "CONMEBOL",
+    "乌拉圭": "CONMEBOL",
+    "厄瓜多尔": "CONMEBOL",
+    "巴拉圭": "CONMEBOL",
+    "韩国": "AFC",
+    "卡塔尔": "AFC",
+    "日本": "AFC",
+    "伊朗": "AFC",
+    "沙特阿拉伯": "AFC",
+    "伊拉克": "AFC",
+    "乌兹别克斯坦": "AFC",
+    "约旦": "AFC",
+    "澳大利亚": "AFC",
+    "摩洛哥": "CAF",
+    "南非": "CAF",
+    "科特迪瓦": "CAF",
+    "突尼斯": "CAF",
+    "埃及": "CAF",
+    "塞内加尔": "CAF",
+    "佛得角": "CAF",
+    "阿尔及利亚": "CAF",
+    "加纳": "CAF",
+    "刚果民主共和国": "CAF",
+    "新西兰": "OFC"
+  },
+  "knockoutMap": [
+    {
+      "match": 73,
+      "date": "6月28日",
+      "slotA": "A组第2",
+      "slotB": "B组第2",
+      "next": 90
+    },
+    {
+      "match": 74,
+      "date": "6月29日",
+      "slotA": "E组第1",
+      "slotB": "A/B/C/D/F组第3",
+      "next": 89
+    },
+    {
+      "match": 75,
+      "date": "6月29日",
+      "slotA": "F组第1",
+      "slotB": "C组第2",
+      "next": 90
+    },
+    {
+      "match": 76,
+      "date": "6月29日",
+      "slotA": "C组第1",
+      "slotB": "F组第2",
+      "next": 91
+    },
+    {
+      "match": 77,
+      "date": "6月30日",
+      "slotA": "I组第1",
+      "slotB": "C/D/F/G/H组第3",
+      "next": 89
+    },
+    {
+      "match": 78,
+      "date": "6月30日",
+      "slotA": "E组第2",
+      "slotB": "I组第2",
+      "next": 91
+    },
+    {
+      "match": 79,
+      "date": "6月30日",
+      "slotA": "A组第1",
+      "slotB": "C/E/F/H/I组第3",
+      "next": 92
+    },
+    {
+      "match": 80,
+      "date": "7月1日",
+      "slotA": "L组第1",
+      "slotB": "E/H/I/J/K组第3",
+      "next": 92
+    },
+    {
+      "match": 81,
+      "date": "7月1日",
+      "slotA": "D组第1",
+      "slotB": "B/E/F/I/J组第3",
+      "next": 94
+    },
+    {
+      "match": 82,
+      "date": "7月1日",
+      "slotA": "G组第1",
+      "slotB": "A/E/H/I/J组第3",
+      "next": 94
+    },
+    {
+      "match": 83,
+      "date": "7月2日",
+      "slotA": "K组第2",
+      "slotB": "L组第2",
+      "next": 93
+    },
+    {
+      "match": 84,
+      "date": "7月2日",
+      "slotA": "H组第1",
+      "slotB": "J组第2",
+      "next": 93
+    },
+    {
+      "match": 85,
+      "date": "7月2日",
+      "slotA": "B组第1",
+      "slotB": "E/F/G/I/J组第3",
+      "next": 96
+    },
+    {
+      "match": 86,
+      "date": "7月3日",
+      "slotA": "J组第1",
+      "slotB": "H组第2",
+      "next": 95
+    },
+    {
+      "match": 87,
+      "date": "7月3日",
+      "slotA": "K组第1",
+      "slotB": "D/E/I/J/L组第3",
+      "next": 96
+    },
+    {
+      "match": 88,
+      "date": "7月3日",
+      "slotA": "D组第2",
+      "slotB": "G组第2",
+      "next": 95
+    }
+  ],
+  "fixtures": [
+    {
+      "match": "A1",
+      "group": "A",
+      "a": "墨西哥",
+      "b": "南非",
+      "matchday": 1,
+      "date": "2026-06-11",
+      "city": "墨西哥城",
+      "stadium": "Estadio Azteca",
+      "source": "official"
+    },
+    {
+      "match": "A2",
+      "group": "A",
+      "a": "韩国",
+      "b": "捷克",
+      "matchday": 1,
+      "date": "2026-06-11",
+      "city": "萨波潘",
+      "stadium": "Estadio Akron",
+      "source": "official"
+    },
+    {
+      "match": "A3",
+      "group": "A",
+      "a": "捷克",
+      "b": "南非",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "city": "亚特兰大",
+      "stadium": "Mercedes-Benz Stadium",
+      "source": "official"
+    },
+    {
+      "match": "A4",
+      "group": "A",
+      "a": "墨西哥",
+      "b": "韩国",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "city": "萨波潘",
+      "stadium": "Estadio Akron",
+      "source": "official"
+    },
+    {
+      "match": "A5",
+      "group": "A",
+      "a": "捷克",
+      "b": "墨西哥",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "city": "墨西哥城",
+      "stadium": "Estadio Azteca",
+      "source": "official"
+    },
+    {
+      "match": "A6",
+      "group": "A",
+      "a": "南非",
+      "b": "韩国",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "city": "瓜达卢佩",
+      "stadium": "Estadio BBVA",
+      "source": "official"
+    },
+    {
+      "match": "B1",
+      "group": "B",
+      "a": "加拿大",
+      "b": "波黑",
+      "matchday": 1,
+      "date": "2026-06-12",
+      "city": "多伦多",
+      "stadium": "BMO Field",
+      "source": "official"
+    },
+    {
+      "match": "B2",
+      "group": "B",
+      "a": "卡塔尔",
+      "b": "瑞士",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "city": "圣克拉拉",
+      "stadium": "Levi's Stadium",
+      "source": "official"
+    },
+    {
+      "match": "B3",
+      "group": "B",
+      "a": "瑞士",
+      "b": "波黑",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "city": "英格尔伍德",
+      "stadium": "SoFi Stadium",
+      "source": "official"
+    },
+    {
+      "match": "B4",
+      "group": "B",
+      "a": "加拿大",
+      "b": "卡塔尔",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "city": "温哥华",
+      "stadium": "BC Place",
+      "source": "official"
+    },
+    {
+      "match": "B5",
+      "group": "B",
+      "a": "瑞士",
+      "b": "加拿大",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "city": "温哥华",
+      "stadium": "BC Place",
+      "source": "official"
+    },
+    {
+      "match": "B6",
+      "group": "B",
+      "a": "波黑",
+      "b": "卡塔尔",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "city": "西雅图",
+      "stadium": "Lumen Field",
+      "source": "official"
+    },
+    {
+      "match": "C1",
+      "group": "C",
+      "a": "巴西",
+      "b": "摩洛哥",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "city": "福克斯伯勒",
+      "stadium": "Gillette Stadium",
+      "source": "official"
+    },
+    {
+      "match": "C2",
+      "group": "C",
+      "a": "海地",
+      "b": "苏格兰",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "city": "东拉瑟福德",
+      "stadium": "MetLife Stadium",
+      "source": "official"
+    },
+    {
+      "match": "C3",
+      "group": "C",
+      "a": "苏格兰",
+      "b": "摩洛哥",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "city": "费城",
+      "stadium": "Lincoln Financial Field",
+      "source": "official"
+    },
+    {
+      "match": "C4",
+      "group": "C",
+      "a": "巴西",
+      "b": "海地",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "city": "福克斯伯勒",
+      "stadium": "Gillette Stadium",
+      "source": "official"
+    },
+    {
+      "match": "C5",
+      "group": "C",
+      "a": "苏格兰",
+      "b": "巴西",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "city": "迈阿密花园",
+      "stadium": "Hard Rock Stadium",
+      "source": "official"
+    },
+    {
+      "match": "C6",
+      "group": "C",
+      "a": "摩洛哥",
+      "b": "海地",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "city": "亚特兰大",
+      "stadium": "Mercedes-Benz Stadium",
+      "source": "official"
+    },
+    {
+      "match": "D1",
+      "group": "D",
+      "a": "美国",
+      "b": "巴拉圭",
+      "matchday": 1,
+      "date": "2026-06-12",
+      "city": "英格尔伍德",
+      "stadium": "SoFi Stadium",
+      "source": "official"
+    },
+    {
+      "match": "D2",
+      "group": "D",
+      "a": "澳大利亚",
+      "b": "土耳其",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "city": "温哥华",
+      "stadium": "BC Place",
+      "source": "official"
+    },
+    {
+      "match": "D3",
+      "group": "D",
+      "a": "土耳其",
+      "b": "巴拉圭",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "city": "圣克拉拉",
+      "stadium": "Levi's Stadium",
+      "source": "official"
+    },
+    {
+      "match": "D4",
+      "group": "D",
+      "a": "美国",
+      "b": "澳大利亚",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "city": "西雅图",
+      "stadium": "Lumen Field",
+      "source": "official"
+    },
+    {
+      "match": "D5",
+      "group": "D",
+      "a": "土耳其",
+      "b": "美国",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "city": "英格尔伍德",
+      "stadium": "SoFi Stadium",
+      "source": "official"
+    },
+    {
+      "match": "D6",
+      "group": "D",
+      "a": "巴拉圭",
+      "b": "澳大利亚",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "city": "圣克拉拉",
+      "stadium": "Levi's Stadium",
+      "source": "official"
+    },
+    {
+      "match": "E1",
+      "group": "E",
+      "a": "科特迪瓦",
+      "b": "厄瓜多尔",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "city": "费城",
+      "stadium": "Lincoln Financial Field",
+      "source": "official"
+    },
+    {
+      "match": "E2",
+      "group": "E",
+      "a": "德国",
+      "b": "库拉索",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "city": "休斯敦",
+      "stadium": "NRG Stadium",
+      "source": "official"
+    },
+    {
+      "match": "E3",
+      "group": "E",
+      "a": "德国",
+      "b": "科特迪瓦",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "city": "多伦多",
+      "stadium": "BMO Field",
+      "source": "official"
+    },
+    {
+      "match": "E4",
+      "group": "E",
+      "a": "厄瓜多尔",
+      "b": "库拉索",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "city": "堪萨斯城",
+      "stadium": "Arrowhead Stadium",
+      "source": "official"
+    },
+    {
+      "match": "E5",
+      "group": "E",
+      "a": "库拉索",
+      "b": "科特迪瓦",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "city": "费城",
+      "stadium": "Lincoln Financial Field",
+      "source": "official"
+    },
+    {
+      "match": "E6",
+      "group": "E",
+      "a": "厄瓜多尔",
+      "b": "德国",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "city": "东拉瑟福德",
+      "stadium": "MetLife Stadium",
+      "source": "official"
+    },
+    {
+      "match": "F1",
+      "group": "F",
+      "a": "荷兰",
+      "b": "日本",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "city": "阿灵顿",
+      "stadium": "AT&T Stadium",
+      "source": "official"
+    },
+    {
+      "match": "F2",
+      "group": "F",
+      "a": "瑞典",
+      "b": "突尼斯",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "city": "瓜达卢佩",
+      "stadium": "Estadio BBVA",
+      "source": "official"
+    },
+    {
+      "match": "F3",
+      "group": "F",
+      "a": "荷兰",
+      "b": "瑞典",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "city": "休斯敦",
+      "stadium": "NRG Stadium",
+      "source": "official"
+    },
+    {
+      "match": "F4",
+      "group": "F",
+      "a": "突尼斯",
+      "b": "日本",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "city": "瓜达卢佩",
+      "stadium": "Estadio BBVA",
+      "source": "official"
+    },
+    {
+      "match": "F5",
+      "group": "F",
+      "a": "日本",
+      "b": "瑞典",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "city": "阿灵顿",
+      "stadium": "AT&T Stadium",
+      "source": "official"
+    },
+    {
+      "match": "F6",
+      "group": "F",
+      "a": "突尼斯",
+      "b": "荷兰",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "city": "堪萨斯城",
+      "stadium": "Arrowhead Stadium",
+      "source": "official"
+    },
+    {
+      "match": "G1",
+      "group": "G",
+      "a": "伊朗",
+      "b": "新西兰",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "city": "英格尔伍德",
+      "stadium": "SoFi Stadium",
+      "source": "official"
+    },
+    {
+      "match": "G2",
+      "group": "G",
+      "a": "比利时",
+      "b": "埃及",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "city": "西雅图",
+      "stadium": "Lumen Field",
+      "source": "official"
+    },
+    {
+      "match": "G3",
+      "group": "G",
+      "a": "比利时",
+      "b": "伊朗",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "city": "英格尔伍德",
+      "stadium": "SoFi Stadium",
+      "source": "official"
+    },
+    {
+      "match": "G4",
+      "group": "G",
+      "a": "新西兰",
+      "b": "埃及",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "city": "温哥华",
+      "stadium": "BC Place",
+      "source": "official"
+    },
+    {
+      "match": "G5",
+      "group": "G",
+      "a": "埃及",
+      "b": "伊朗",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "city": "西雅图",
+      "stadium": "Lumen Field",
+      "source": "official"
+    },
+    {
+      "match": "G6",
+      "group": "G",
+      "a": "新西兰",
+      "b": "比利时",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "city": "温哥华",
+      "stadium": "BC Place",
+      "source": "official"
+    },
+    {
+      "match": "H1",
+      "group": "H",
+      "a": "沙特阿拉伯",
+      "b": "乌拉圭",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "city": "迈阿密花园",
+      "stadium": "Hard Rock Stadium",
+      "source": "official"
+    },
+    {
+      "match": "H2",
+      "group": "H",
+      "a": "西班牙",
+      "b": "佛得角",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "city": "亚特兰大",
+      "stadium": "Mercedes-Benz Stadium",
+      "source": "official"
+    },
+    {
+      "match": "H3",
+      "group": "H",
+      "a": "乌拉圭",
+      "b": "佛得角",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "city": "迈阿密花园",
+      "stadium": "Hard Rock Stadium",
+      "source": "official"
+    },
+    {
+      "match": "H4",
+      "group": "H",
+      "a": "西班牙",
+      "b": "沙特阿拉伯",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "city": "亚特兰大",
+      "stadium": "Mercedes-Benz Stadium",
+      "source": "official"
+    },
+    {
+      "match": "H5",
+      "group": "H",
+      "a": "佛得角",
+      "b": "沙特阿拉伯",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "city": "休斯敦",
+      "stadium": "NRG Stadium",
+      "source": "official"
+    },
+    {
+      "match": "H6",
+      "group": "H",
+      "a": "乌拉圭",
+      "b": "西班牙",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "city": "萨波潘",
+      "stadium": "Estadio Akron",
+      "source": "official"
+    },
+    {
+      "match": "I1",
+      "group": "I",
+      "a": "法国",
+      "b": "塞内加尔",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "city": "东拉瑟福德",
+      "stadium": "MetLife Stadium",
+      "source": "official"
+    },
+    {
+      "match": "I2",
+      "group": "I",
+      "a": "伊拉克",
+      "b": "挪威",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "city": "福克斯伯勒",
+      "stadium": "Gillette Stadium",
+      "source": "official"
+    },
+    {
+      "match": "I3",
+      "group": "I",
+      "a": "挪威",
+      "b": "塞内加尔",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "city": "东拉瑟福德",
+      "stadium": "MetLife Stadium",
+      "source": "official"
+    },
+    {
+      "match": "I4",
+      "group": "I",
+      "a": "法国",
+      "b": "伊拉克",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "city": "费城",
+      "stadium": "Lincoln Financial Field",
+      "source": "official"
+    },
+    {
+      "match": "I5",
+      "group": "I",
+      "a": "挪威",
+      "b": "法国",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "city": "福克斯伯勒",
+      "stadium": "Gillette Stadium",
+      "source": "official"
+    },
+    {
+      "match": "I6",
+      "group": "I",
+      "a": "塞内加尔",
+      "b": "伊拉克",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "city": "多伦多",
+      "stadium": "BMO Field",
+      "source": "official"
+    },
+    {
+      "match": "J1",
+      "group": "J",
+      "a": "阿根廷",
+      "b": "阿尔及利亚",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "city": "堪萨斯城",
+      "stadium": "Arrowhead Stadium",
+      "source": "official"
+    },
+    {
+      "match": "J2",
+      "group": "J",
+      "a": "奥地利",
+      "b": "约旦",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "city": "圣克拉拉",
+      "stadium": "Levi's Stadium",
+      "source": "official"
+    },
+    {
+      "match": "J3",
+      "group": "J",
+      "a": "阿根廷",
+      "b": "奥地利",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "city": "阿灵顿",
+      "stadium": "AT&T Stadium",
+      "source": "official"
+    },
+    {
+      "match": "J4",
+      "group": "J",
+      "a": "约旦",
+      "b": "阿尔及利亚",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "city": "圣克拉拉",
+      "stadium": "Levi's Stadium",
+      "source": "official"
+    },
+    {
+      "match": "J5",
+      "group": "J",
+      "a": "阿尔及利亚",
+      "b": "奥地利",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "city": "堪萨斯城",
+      "stadium": "Arrowhead Stadium",
+      "source": "official"
+    },
+    {
+      "match": "J6",
+      "group": "J",
+      "a": "约旦",
+      "b": "阿根廷",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "city": "阿灵顿",
+      "stadium": "AT&T Stadium",
+      "source": "official"
+    },
+    {
+      "match": "K1",
+      "group": "K",
+      "a": "葡萄牙",
+      "b": "刚果民主共和国",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "city": "休斯敦",
+      "stadium": "NRG Stadium",
+      "source": "official"
+    },
+    {
+      "match": "K2",
+      "group": "K",
+      "a": "乌兹别克斯坦",
+      "b": "哥伦比亚",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "city": "墨西哥城",
+      "stadium": "Estadio Azteca",
+      "source": "official"
+    },
+    {
+      "match": "K3",
+      "group": "K",
+      "a": "葡萄牙",
+      "b": "乌兹别克斯坦",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "city": "休斯敦",
+      "stadium": "NRG Stadium",
+      "source": "official"
+    },
+    {
+      "match": "K4",
+      "group": "K",
+      "a": "哥伦比亚",
+      "b": "刚果民主共和国",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "city": "萨波潘",
+      "stadium": "Estadio Akron",
+      "source": "official"
+    },
+    {
+      "match": "K5",
+      "group": "K",
+      "a": "哥伦比亚",
+      "b": "葡萄牙",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "city": "迈阿密花园",
+      "stadium": "Hard Rock Stadium",
+      "source": "official"
+    },
+    {
+      "match": "K6",
+      "group": "K",
+      "a": "刚果民主共和国",
+      "b": "乌兹别克斯坦",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "city": "亚特兰大",
+      "stadium": "Mercedes-Benz Stadium",
+      "source": "official"
+    },
+    {
+      "match": "L1",
+      "group": "L",
+      "a": "加纳",
+      "b": "巴拿马",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "city": "多伦多",
+      "stadium": "BMO Field",
+      "source": "official"
+    },
+    {
+      "match": "L2",
+      "group": "L",
+      "a": "英格兰",
+      "b": "克罗地亚",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "city": "阿灵顿",
+      "stadium": "AT&T Stadium",
+      "source": "official"
+    },
+    {
+      "match": "L3",
+      "group": "L",
+      "a": "英格兰",
+      "b": "加纳",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "city": "福克斯伯勒",
+      "stadium": "Gillette Stadium",
+      "source": "official"
+    },
+    {
+      "match": "L4",
+      "group": "L",
+      "a": "巴拿马",
+      "b": "克罗地亚",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "city": "多伦多",
+      "stadium": "BMO Field",
+      "source": "official"
+    },
+    {
+      "match": "L5",
+      "group": "L",
+      "a": "巴拿马",
+      "b": "英格兰",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "city": "东拉瑟福德",
+      "stadium": "MetLife Stadium",
+      "source": "official"
+    },
+    {
+      "match": "L6",
+      "group": "L",
+      "a": "克罗地亚",
+      "b": "加纳",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "city": "费城",
+      "stadium": "Lincoln Financial Field",
+      "source": "official"
+    }
+  ],
+  "oddsSource": "World Cup futures odds snapshot compiled from public betting-market listings",
+  "styleDate": "2026-06-06",
+  "styleSource": "Model style calibration based on squad strength, recent tournament profile and team archetype"
+};

@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>世界杯预测工作台</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">World Cup Forecast Lab</p>
+          <h1>世界杯预测工作台</h1>
+          <p class="headline-subtitle">2026 真实分组 · 单场 xG · 小组出线 · 淘汰赛路径 · 蒙特卡洛概率</p>
+        </div>
+        <div class="header-actions">
+          <label class="language-control">
+            <span>语言 / Language</span>
+            <select id="languageSelect">
+              <option value="zh">中文</option>
+              <option value="en">English</option>
+            </select>
+          </label>
+          <div class="model-chip">
+            <span>模型</span>
+            <strong>12 因素综合预测</strong>
+          </div>
+          <div class="model-chip">
+            <span>模拟</span>
+            <strong>800 / 1500 次</strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="method-strip">
+        <div>
+          <strong>预测逻辑</strong>
+          <span>球队强度 → 单场 xG/胜平负 → 小组排名 → 8 个最佳第三名 → 淘汰赛路径 → 蒙特卡洛概率</span>
+        </div>
+        <div>
+          <strong>参考做法</strong>
+          <span>类似 FiveThirtyEight/Opta：用强度评分转单场概率，再跑大量赛事模拟。</span>
+        </div>
+      </section>
+
+      <section class="data-status" aria-label="数据可信度">
+        <span><strong>真实数据</strong> 2026 分组 / 赛制 / 32 强路径</span>
+        <span><strong>模型估算</strong> Elo、伤病、赔率、旅途、气候适应</span>
+        <span><strong>数据更新</strong> <span id="dataUpdatedAt">加载中</span></span>
+        <span><strong>强度数据</strong> <span id="strengthDataStatus">加载中</span></span>
+      </section>
+
+      <section class="mode-strip" aria-label="模型模式">
+        <label>
+          模型模式
+          <select id="modelMode">
+            <option value="standard">常规模型</option>
+            <option value="upset">冷门模式</option>
+            <option value="market">市场赔率模式</option>
+            <option value="host">主办国加成模式</option>
+          </select>
+        </label>
+        <p id="modeDescription">平衡球队强度、攻防、赛程和赔率，适合默认预测。</p>
+      </section>
+
+      <section class="summary-grid" aria-label="预测摘要">
+        <article class="metric-panel">
+          <span class="metric-label">模型冠军热门</span>
+          <strong id="favoriteTeam">-</strong>
+          <small id="favoriteReason">等待计算</small>
+        </article>
+        <article class="metric-panel">
+          <span class="metric-label">火力上限</span>
+          <strong id="bestAttack">-</strong>
+          <small>进攻评分最高</small>
+        </article>
+        <article class="metric-panel">
+          <span class="metric-label">防守下限</span>
+          <strong id="bestDefense">-</strong>
+          <small>防守评分最高</small>
+        </article>
+        <article class="metric-panel">
+          <span class="metric-label">赛事规模</span>
+          <strong id="datasetSize">0 支球队</strong>
+          <small id="fixtureCount">0 场小组赛</small>
+        </article>
+        <article class="metric-panel">
+          <span class="metric-label">死亡小组</span>
+          <strong id="groupOfDeath">-</strong>
+          <small id="groupOfDeathReason">强队密度最高</small>
+        </article>
+      </section>
+
+      <section class="panel focus-panel">
+        <div class="panel-head">
+          <div>
+            <h2>焦点比赛推荐</h2>
+            <p>自动挑出最值得看的强强战、出线关键战和潜在冷门。</p>
+          </div>
+        </div>
+        <div id="focusMatches" class="focus-match-grid"></div>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel controls-panel">
+          <div class="panel-head">
+            <h2>单场预测</h2>
+            <button id="swapTeams" class="icon-button" type="button" title="交换主客队">↔</button>
+          </div>
+
+          <label>
+            A 队
+            <select id="teamA"></select>
+          </label>
+
+          <label>
+            B 队
+            <select id="teamB"></select>
+          </label>
+          <p class="field-note">B 队会自动切换为 A 队的小组赛对手。</p>
+
+          <div class="toggle-row">
+            <label class="checkbox-label">
+              <input id="homeBoost" type="checkbox" checked />
+              A 队主场加成
+            </label>
+          </div>
+
+          <label>
+            平局倾向
+            <input id="drawWeight" type="range" min="0.15" max="0.35" value="0.24" step="0.01" />
+          </label>
+
+          <button id="predictButton" class="primary-button" type="button">计算胜平负</button>
+
+          <div class="probability-card" aria-live="polite">
+            <div class="scoreline" id="scoreline">-</div>
+            <div id="scoreAlternates" class="score-alternates"></div>
+            <div class="match-insights">
+              <div>
+                <span>xG</span>
+                <strong id="xgLine">-</strong>
+              </div>
+              <div>
+                <span>信心</span>
+                <strong id="confidenceLine">-</strong>
+              </div>
+              <div>
+                <span>冷门风险</span>
+                <strong id="upsetRiskLine">-</strong>
+              </div>
+              <div>
+                <span>比赛节奏</span>
+                <strong id="tempoLine">-</strong>
+              </div>
+            </div>
+            <div class="prob-bars">
+              <div>
+                <span id="labelWinA">A 胜</span>
+                <strong id="probWinA">0%</strong>
+                <i id="barWinA"></i>
+              </div>
+              <div>
+                <span>平局</span>
+                <strong id="probDraw">0%</strong>
+                <i id="barDraw"></i>
+              </div>
+              <div>
+                <span id="labelWinB">B 胜</span>
+                <strong id="probWinB">0%</strong>
+                <i id="barWinB"></i>
+              </div>
+            </div>
+          </div>
+
+          <details class="detail-card" open>
+            <summary>展开单场依据</summary>
+            <div class="factor-card pre-match-card">
+              <h3>赛前报告</h3>
+              <div id="preMatchReport" class="pre-match-report"></div>
+            </div>
+            <div class="factor-card">
+              <h3>本场关键因素</h3>
+              <div id="matchFactors" class="factor-list"></div>
+            </div>
+            <div class="factor-card">
+              <h3>比分分布</h3>
+              <div id="scoreDistribution" class="score-distribution"></div>
+            </div>
+            <div class="factor-card">
+              <h3>冷门成因</h3>
+              <div id="upsetExplainer" class="upset-explainer"></div>
+            </div>
+            <div class="factor-card">
+              <h3>战术对位</h3>
+              <div id="tacticalMatchup" class="tactical-grid"></div>
+            </div>
+            <div class="factor-card">
+              <h3>模型结合的数据</h3>
+              <div id="modelInputs" class="model-inputs"></div>
+            </div>
+            <div class="factor-card">
+              <h3>当前球队前景</h3>
+              <div id="selectedTeamOutlook" class="outlook-list"></div>
+            </div>
+          </details>
+        </aside>
+
+        <div class="right-rail">
+          <section class="panel table-panel">
+            <div class="panel-head">
+              <div>
+                <h2>小组出线预测</h2>
+                <p>按已录入赛程计算预期积分和净胜球。</p>
+              </div>
+              <select id="groupSelect" aria-label="选择小组"></select>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>排名</th>
+                    <th>球队</th>
+                    <th>预期积分</th>
+                    <th>预期进球</th>
+                    <th>预期失球</th>
+                    <th>模型评分</th>
+                    <th>风险</th>
+                  </tr>
+                </thead>
+                <tbody id="groupTable"></tbody>
+              </table>
+            </div>
+            <div class="group-detail-grid">
+              <section>
+                <h3>小组赛程预测</h3>
+                <div id="groupFixtures" class="fixture-list"></div>
+              </section>
+              <section>
+                <h3>出线形势</h3>
+                <div id="groupRace" class="race-list"></div>
+              </section>
+            </div>
+            <div class="group-reality-panel">
+              <div class="panel-head compact-head">
+                <div>
+                  <h3>小组真实变量</h3>
+                  <p>把第三名压力、赛程压力和模型分歧放在一起看。</p>
+                </div>
+              </div>
+              <div id="groupReality" class="group-reality-grid"></div>
+            </div>
+            <div class="key-match-panel">
+              <div class="panel-head compact-head">
+                <div>
+                  <h3>小组关键战</h3>
+                  <p>自动挑出争第一、争第二和第三名压力最大的比赛。</p>
+                </div>
+              </div>
+              <div id="keyMatches" class="key-match-list"></div>
+            </div>
+            <div class="team-route-panel">
+              <div class="panel-head compact-head">
+                <div>
+                  <h3 id="teamRouteTitle">球队小组路径</h3>
+                  <p id="teamRouteSubtitle">跟随左侧 A 队选择自动更新。</p>
+                </div>
+              </div>
+            <div id="teamRoute" class="route-grid"></div>
+            <div id="scheduleStrength" class="schedule-strength"></div>
+          </div>
+            <div class="upset-panel">
+              <div class="panel-head compact-head">
+                <div>
+                  <h3>冷门观察</h3>
+                  <p>按实力差、平局概率、伤病旅途和第三名压力综合判断。</p>
+                </div>
+              </div>
+              <div id="upsetWatch" class="upset-list"></div>
+            </div>
+          </section>
+
+        <section class="panel groups-panel">
+          <div class="panel-head">
+            <div>
+              <h2>2026 真实分组</h2>
+              <p>A-L 组，每组前二名和 8 个最佳第三名进入 32 强。</p>
+            </div>
+          </div>
+          <div id="groupOverview" class="group-overview"></div>
+        </section>
+        </div>
+      </section>
+
+      <section class="panel bracket-panel">
+        <div class="panel-head">
+          <div>
+            <h2>32 强晋级图</h2>
+            <p>按 FIFA 公布的 2026 淘汰赛槽位展示，并用当前模型一路模拟到冠军。</p>
+          </div>
+        </div>
+        <div class="champion-strip">
+          <span>模型冠军路径</span>
+          <strong id="championPath">等待计算</strong>
+        </div>
+        <div class="bracket-scroll">
+          <div id="bracketTree" class="bracket-tree"></div>
+        </div>
+      </section>
+
+      <section class="panel simulation-panel">
+        <div class="panel-head">
+          <div>
+            <h2>蒙特卡洛晋级概率</h2>
+            <p>随机模拟 1500 次完整赛事，比单一路径更接近真实预测。</p>
+          </div>
+          <div class="sim-controls">
+            <select id="simGroupFilter" aria-label="筛选小组">
+              <option value="all">全部小组</option>
+            </select>
+            <select id="simSort" aria-label="排序方式">
+              <option value="champion">按夺冠</option>
+              <option value="round32">按进32强</option>
+              <option value="darkhorse">黑马榜</option>
+            </select>
+            <button id="runSimulation" class="secondary-button" type="button">重新模拟</button>
+            <button id="exportReport" class="secondary-button" type="button">导出预测报告</button>
+          </div>
+        </div>
+        <div class="sim-summary">
+          <span id="simStatus">等待模拟</span>
+          <strong id="simChampion">-</strong>
+        </div>
+        <div class="table-wrap">
+          <table class="simulation-table">
+            <thead>
+              <tr>
+                <th>球队</th>
+                <th>组</th>
+                <th>小组第一</th>
+                <th>进32强</th>
+                <th>进16强</th>
+                <th>进8强</th>
+                <th>进4强</th>
+                <th>进决赛</th>
+                <th>夺冠</th>
+              </tr>
+            </thead>
+            <tbody id="simulationTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="lower-grid">
+        <section class="panel factors-panel">
+          <div class="panel-head">
+            <div>
+              <h2>模型因素权重</h2>
+              <p>每项都能在 JSON 里修改，立刻影响预测。</p>
+            </div>
+          </div>
+          <div id="factorWeights" class="weights-grid"></div>
+        </section>
+
+        <section class="panel contenders-panel">
+          <div class="panel-head">
+            <h2>冠军竞争力</h2>
+            <p>不是最终赔率，只是当前参数下的相对强度。</p>
+          </div>
+          <div id="contenders" class="contenders"></div>
+        </section>
+
+        <section class="panel credibility-panel">
+          <div class="panel-head">
+            <div>
+              <h2>数据可信度</h2>
+              <p>真实赛程和模型估算分开标注，方便判断预测可靠性。</p>
+            </div>
+          </div>
+          <div id="dataCredibility" class="credibility-grid"></div>
+        </section>
+
+        <details class="panel data-panel">
+          <summary>
+            <span>数据编辑</span>
+            <small>导入/导出 JSON，默认收起避免影响成品展示</small>
+          </summary>
+          <div class="panel-head data-editor-head">
+            <h2>数据编辑</h2>
+            <div class="button-row compact-buttons">
+              <label class="file-button">
+                导入文件
+                <input id="importDataFile" type="file" accept=".json,application/json" />
+              </label>
+              <button id="loadSample" class="secondary-button" type="button">恢复内置数据</button>
+            </div>
+          </div>
+          <textarea id="dataEditor" spellcheck="false"></textarea>
+          <div class="button-row">
+            <button id="applyData" class="primary-button" type="button">应用 JSON</button>
+            <button id="exportData" class="secondary-button" type="button">导出当前数据</button>
+          </div>
+          <p id="dataMessage" class="data-message" role="status"></p>
+        </details>
+      </section>
+    </main>
+
+    <dialog id="teamDialog" class="team-dialog">
+      <div class="dialog-head">
+        <div>
+          <h2 id="dialogTeamName">球队详情</h2>
+          <p id="dialogTeamMeta">-</p>
+        </div>
+        <button id="closeTeamDialog" class="icon-button" type="button" title="关闭">×</button>
+      </div>
+      <div id="teamDialogBody" class="dialog-body"></div>
+    </dialog>
+
+    <script src="./data/worldcup-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
