@@ -277,6 +277,12 @@ const translateTextMap = {
   en: {
     "世界杯预测工作台": "World Cup Forecast Lab",
     "2026 真实分组 · 单场 xG · 小组出线 · 淘汰赛路径 · 蒙特卡洛概率": "2026 real groups · single-match xG · group qualification · knockout routes · Monte Carlo probabilities",
+    "在线演示版": "Online demo",
+    "想要完整版工具包？首发测试价 19.9 元": "Want the full toolkit? Launch test price: RMB 19.9",
+    "适合世界杯球迷、足球博主、公众号和短视频创作者。完整版支持离线使用、数据模板和更新脚本。": "Built for World Cup fans, football creators, newsletters, and short-video accounts. The full package supports offline use, data templates, and update scripts.",
+    "先体验功能": "Try the demo",
+    "微信联系：hms16888168": "WeChat: hms16888168",
+    "仅用于球迷分析和内容创作，不是投注建议，不保证比赛结果。": "For fan analysis and content creation only. Not betting advice and no result is guaranteed.",
     "模型": "Model",
     "12 因素综合预测": "12-factor forecast",
     "模拟": "Simulation",
