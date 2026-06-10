@@ -21,18 +21,21 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Merge latest curated update
+      - name: Fetch live Elo data
+        run: node scripts/fetch-elo-data.js
+
+      - name: Merge latest data update
         run: node scripts/update-data.js data-updates/latest.json
 
       - name: Validate JavaScript
         run: |
           node --check app.js
           node --check data/worldcup-data.js
+          node --check scripts/fetch-elo-data.js
           node --check scripts/update-data.js
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update forecast data"
-          file_pattern: data/worldcup-data.js
-
+          file_pattern: data/worldcup-data.js data-updates/latest.json

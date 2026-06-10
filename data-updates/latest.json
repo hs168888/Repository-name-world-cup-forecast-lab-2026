@@ -1,12 +1,321 @@
 {
-  "lastUpdated": "2026-06-06",
-  "rankingDate": "2026-06-06",
-  "eloDate": "model-estimate",
-  "oddsDate": "2026-06-03",
-  "sourceLabel": "完整小组赛程：FIFA 官方赛程页核对，FourFourTwo 完整列表整理",
-  "notes": [
-    "Edit this file when you have a curated data update.",
-    "GitHub Actions will merge it into data/worldcup-data.js on schedule or manual run.",
-    "Only include fields that should change."
-  ]
+  "lastUpdated": "2026-06-09",
+  "rankingDate": "2026-06-09",
+  "eloDate": "2026-06-09",
+  "sourceLabel": "2026 真实分组与赛程；球队 Elo 与强弱排名每日自动同步 World Football Elo（2026-06-09）",
+  "dataQuality": {
+    "confirmed": [
+      "2026 A-L 分组",
+      "48 队赛制",
+      "32 强晋级规则",
+      "72 场小组赛日期/城市/球场",
+      "48 队夺冠赔率覆盖值",
+      "World Football Elo 自动同步"
+    ],
+    "estimated": [
+      "伤病影响",
+      "赔率校准",
+      "旅途疲劳",
+      "气候适应",
+      "阵容深度",
+      "48 队攻防/门将/定位球风格参数"
+    ],
+    "nextFeeds": [
+      "市场赔率",
+      "伤病名单",
+      "赛程城市/球场"
+    ]
+  },
+  "fifaRanks": {
+    "墨西哥": 18,
+    "南非": 80,
+    "韩国": 33,
+    "捷克": 35,
+    "加拿大": 25,
+    "瑞士": 17,
+    "卡塔尔": 97,
+    "波黑": 65,
+    "巴西": 5,
+    "摩洛哥": 24,
+    "海地": 73,
+    "苏格兰": 27,
+    "美国": 38,
+    "巴拉圭": 22,
+    "澳大利亚": 28,
+    "土耳其": 12,
+    "德国": 10,
+    "库拉索": 91,
+    "科特迪瓦": 48,
+    "厄瓜多尔": 9,
+    "荷兰": 8,
+    "日本": 13,
+    "突尼斯": 59,
+    "瑞典": 42,
+    "比利时": 15,
+    "埃及": 48,
+    "伊朗": 28,
+    "新西兰": 72,
+    "西班牙": 1,
+    "佛得角": 68,
+    "沙特阿拉伯": 69,
+    "乌拉圭": 15,
+    "法国": 3,
+    "塞内加尔": 21,
+    "挪威": 11,
+    "伊拉克": 61,
+    "阿根廷": 2,
+    "阿尔及利亚": 32,
+    "奥地利": 23,
+    "约旦": 52,
+    "葡萄牙": 6,
+    "乌兹别克斯坦": 41,
+    "哥伦比亚": 7,
+    "刚果民主共和国": 55,
+    "英格兰": 4,
+    "克罗地亚": 12,
+    "加纳": 82,
+    "巴拿马": 37
+  },
+  "teamOverrides": {
+    "墨西哥": {
+      "elo": 1875,
+      "eloRank": 18,
+      "eloUpdated": "2026-06-04"
+    },
+    "南非": {
+      "elo": 1517,
+      "eloRank": 80,
+      "eloUpdated": "2026-06-06"
+    },
+    "韩国": {
+      "elo": 1758,
+      "eloRank": 33,
+      "eloUpdated": "2026-06-03"
+    },
+    "捷克": {
+      "elo": 1740,
+      "eloRank": 35,
+      "eloUpdated": "2026-06-04"
+    },
+    "加拿大": {
+      "elo": 1788,
+      "eloRank": 25,
+      "eloUpdated": "2026-06-05"
+    },
+    "瑞士": {
+      "elo": 1891,
+      "eloRank": 17,
+      "eloUpdated": "2026-06-06"
+    },
+    "卡塔尔": {
+      "elo": 1421,
+      "eloRank": 97,
+      "eloUpdated": "2026-06-06"
+    },
+    "波黑": {
+      "elo": 1595,
+      "eloRank": 65,
+      "eloUpdated": "2026-06-06"
+    },
+    "巴西": {
+      "elo": 1991,
+      "eloRank": 5,
+      "eloUpdated": "2026-06-06"
+    },
+    "摩洛哥": {
+      "elo": 1827,
+      "eloRank": 24,
+      "eloUpdated": "2026-06-07"
+    },
+    "海地": {
+      "elo": 1548,
+      "eloRank": 73,
+      "eloUpdated": "2026-06-05"
+    },
+    "苏格兰": {
+      "elo": 1782,
+      "eloRank": 27,
+      "eloUpdated": "2026-06-06"
+    },
+    "美国": {
+      "elo": 1726,
+      "eloRank": 38,
+      "eloUpdated": "2026-06-06"
+    },
+    "巴拉圭": {
+      "elo": 1834,
+      "eloRank": 22,
+      "eloUpdated": "2026-06-05"
+    },
+    "澳大利亚": {
+      "elo": 1777,
+      "eloRank": 28,
+      "eloUpdated": "2026-06-06"
+    },
+    "土耳其": {
+      "elo": 1911,
+      "eloRank": 12,
+      "eloUpdated": "2026-06-06"
+    },
+    "德国": {
+      "elo": 1932,
+      "eloRank": 10,
+      "eloUpdated": "2026-06-06"
+    },
+    "库拉索": {
+      "elo": 1434,
+      "eloRank": 91,
+      "eloUpdated": "2026-06-06"
+    },
+    "科特迪瓦": {
+      "elo": 1695,
+      "eloRank": 48,
+      "eloUpdated": "2026-06-04"
+    },
+    "厄瓜多尔": {
+      "elo": 1938,
+      "eloRank": 9,
+      "eloUpdated": "2026-06-07"
+    },
+    "荷兰": {
+      "elo": 1948,
+      "eloRank": 8,
+      "eloUpdated": "2026-06-08"
+    },
+    "日本": {
+      "elo": 1906,
+      "eloRank": 13,
+      "eloUpdated": "2026-05-31"
+    },
+    "突尼斯": {
+      "elo": 1628,
+      "eloRank": 59,
+      "eloUpdated": "2026-06-06"
+    },
+    "瑞典": {
+      "elo": 1712,
+      "eloRank": 42,
+      "eloUpdated": "2026-06-04"
+    },
+    "比利时": {
+      "elo": 1894,
+      "eloRank": 15,
+      "eloUpdated": "2026-06-06"
+    },
+    "埃及": {
+      "elo": 1696,
+      "eloRank": 48,
+      "eloUpdated": "2026-06-06"
+    },
+    "伊朗": {
+      "elo": 1772,
+      "eloRank": 28,
+      "eloUpdated": "2026-06-04"
+    },
+    "新西兰": {
+      "elo": 1562,
+      "eloRank": 72,
+      "eloUpdated": "2026-06-06"
+    },
+    "西班牙": {
+      "elo": 2157,
+      "eloRank": 1,
+      "eloUpdated": "2026-06-08"
+    },
+    "佛得角": {
+      "elo": 1578,
+      "eloRank": 68,
+      "eloUpdated": "2026-06-06"
+    },
+    "沙特阿拉伯": {
+      "elo": 1576,
+      "eloRank": 69,
+      "eloUpdated": "2026-06-09"
+    },
+    "乌拉圭": {
+      "elo": 1892,
+      "eloRank": 15,
+      "eloUpdated": "2026-03-31"
+    },
+    "法国": {
+      "elo": 2063,
+      "eloRank": 3,
+      "eloUpdated": "2026-06-08"
+    },
+    "塞内加尔": {
+      "elo": 1860,
+      "eloRank": 21,
+      "eloUpdated": "2026-06-09"
+    },
+    "挪威": {
+      "elo": 1914,
+      "eloRank": 11,
+      "eloUpdated": "2026-06-07"
+    },
+    "伊拉克": {
+      "elo": 1618,
+      "eloRank": 61,
+      "eloUpdated": "2026-06-04"
+    },
+    "阿根廷": {
+      "elo": 2114,
+      "eloRank": 2,
+      "eloUpdated": "2026-06-06"
+    },
+    "阿尔及利亚": {
+      "elo": 1760,
+      "eloRank": 32,
+      "eloUpdated": "2026-06-03"
+    },
+    "奥地利": {
+      "elo": 1830,
+      "eloRank": 23,
+      "eloUpdated": "2026-06-01"
+    },
+    "约旦": {
+      "elo": 1680,
+      "eloRank": 52,
+      "eloUpdated": "2026-06-07"
+    },
+    "葡萄牙": {
+      "elo": 1986,
+      "eloRank": 6,
+      "eloUpdated": "2026-06-06"
+    },
+    "乌兹别克斯坦": {
+      "elo": 1714,
+      "eloRank": 41,
+      "eloUpdated": "2026-06-08"
+    },
+    "哥伦比亚": {
+      "elo": 1982,
+      "eloRank": 7,
+      "eloUpdated": "2026-06-07"
+    },
+    "刚果民主共和国": {
+      "elo": 1652,
+      "eloRank": 55,
+      "eloUpdated": "2026-06-09"
+    },
+    "英格兰": {
+      "elo": 2021,
+      "eloRank": 4,
+      "eloUpdated": "2026-06-06"
+    },
+    "克罗地亚": {
+      "elo": 1912,
+      "eloRank": 12,
+      "eloUpdated": "2026-06-07"
+    },
+    "加纳": {
+      "elo": 1510,
+      "eloRank": 82,
+      "eloUpdated": "2026-06-02"
+    },
+    "巴拿马": {
+      "elo": 1730,
+      "eloRank": 37,
+      "eloUpdated": "2026-06-06"
+    }
+  }
 }
