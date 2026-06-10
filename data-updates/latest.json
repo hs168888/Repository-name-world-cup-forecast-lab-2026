@@ -2,7 +2,7 @@
   "lastUpdated": "2026-06-09",
   "rankingDate": "2026-06-09",
   "eloDate": "2026-06-09",
-  "sourceLabel": "2026 真实分组与赛程；球队 Elo 与强弱排名每日自动同步 World Football Elo（2026-06-09）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-09）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -62,7 +62,7 @@
     "法国": 3,
     "塞内加尔": 21,
     "挪威": 11,
-    "伊拉克": 61,
+    "伊拉克": 63,
     "阿根廷": 2,
     "阿尔及利亚": 32,
     "奥地利": 23,
@@ -253,14 +253,14 @@
       "eloUpdated": "2026-06-07"
     },
     "伊拉克": {
-      "elo": 1618,
-      "eloRank": 61,
-      "eloUpdated": "2026-06-04"
+      "elo": 1607,
+      "eloRank": 63,
+      "eloUpdated": "2026-06-09"
     },
     "阿根廷": {
-      "elo": 2114,
+      "elo": 2115,
       "eloRank": 2,
-      "eloUpdated": "2026-06-06"
+      "eloUpdated": "2026-06-09"
     },
     "阿尔及利亚": {
       "elo": 1760,

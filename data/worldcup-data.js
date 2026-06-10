@@ -3,7 +3,7 @@ window.WORLD_CUP_DATA = {
   "rankingDate": "2026-06-09",
   "eloDate": "2026-06-09",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队 Elo 与强弱排名每日自动同步 World Football Elo（2026-06-09）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-09）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -140,7 +140,7 @@ window.WORLD_CUP_DATA = {
     "刚果民主共和国": 55,
     "乌兹别克斯坦": 41,
     "卡塔尔": 97,
-    "伊拉克": 61,
+    "伊拉克": 63,
     "南非": 80,
     "沙特阿拉伯": 69,
     "约旦": 52,
@@ -180,7 +180,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-08"
     },
     "阿根廷": {
-      "elo": 2114,
+      "elo": 2115,
       "marketOdds": 7.5,
       "attack": 90,
       "defense": 88,
@@ -188,7 +188,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 93,
       "setPieces": 81,
       "eloRank": 2,
-      "eloUpdated": "2026-06-06"
+      "eloUpdated": "2026-06-09"
     },
     "英格兰": {
       "elo": 2021,
@@ -604,9 +604,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 63,
       "setPieces": 71,
-      "elo": 1618,
-      "eloRank": 61,
-      "eloUpdated": "2026-06-04"
+      "elo": 1607,
+      "eloRank": 63,
+      "eloUpdated": "2026-06-09"
     },
     "约旦": {
       "marketOdds": 501,

@@ -1302,7 +1302,7 @@ function renderSummary() {
   $("datasetSize").textContent = `${state.teams.length} 支球队`;
   $("fixtureCount").textContent = `${state.fixtures.length} 场小组赛`;
   $("dataUpdatedAt").textContent = `${state.lastUpdated ?? "未知"} · ${state.sourceNote ?? "本地数据"}`;
-  $("strengthDataStatus").textContent = `FIFA ${externalData.rankingDate ?? "未标注"} · Elo ${externalData.eloDate ?? "估算"} · 赔率 ${externalData.oddsDate ?? "估算"} · 风格 ${externalData.styleDate ?? "估算"}`;
+  $("strengthDataStatus").textContent = `Elo 每日同步 ${externalData.eloDate ?? "未接入"} · 排名 ${externalData.rankingDate ?? "未标注"} · 赔率静态参数 ${externalData.oddsDate ?? "估算"} · 风格模型 ${externalData.styleDate ?? "估算"}`;
   $("groupOfDeath").textContent = groupStrength ? `${groupStrength.group}组` : "-";
   $("groupOfDeathReason").textContent = groupStrength ? groupStrength.topThree : "强队密度最高";
   renderDataCredibility();
@@ -1332,7 +1332,7 @@ function renderDataCredibility() {
     </article>
     <article class="credibility-card">
       <span>下一步可接入</span>
-      <strong>${nextFeeds.length} 类实时源</strong>
+      <strong>${nextFeeds.length} 类数据源</strong>
       <small>${nextFeeds.join(" / ")}</small>
     </article>
   `;

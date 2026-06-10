@@ -165,7 +165,7 @@ function buildUpdate(currentData, latestByCode) {
     lastUpdated: newestDate,
     rankingDate: newestDate,
     eloDate: newestDate,
-    sourceLabel: `2026 真实分组与赛程；球队 Elo 与强弱排名每日自动同步 World Football Elo（${newestDate}）`,
+    sourceLabel: `2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，${newestDate}）`,
     dataQuality: {
       confirmed: Array.from(new Set([...oldConfirmed, "World Football Elo 自动同步"])),
       estimated: oldEstimated.filter((item) => item !== "Elo" && item !== "Elo 未接完整真实表时使用模型估算"),
