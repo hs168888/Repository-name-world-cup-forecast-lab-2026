@@ -1,4 +1,10 @@
 const externalData = window.WORLD_CUP_DATA ?? {};
+let liveMatchData = {
+  status: "loading",
+  provider: "API-Football",
+  matches: [],
+  message: "正在读取实时比赛数据。"
+};
 const groups = externalData.groups ?? {
   A: ["墨西哥", "南非", "韩国", "捷克"],
   B: ["加拿大", "瑞士", "卡塔尔", "波黑"],
@@ -201,6 +207,19 @@ const $ = (id) => document.getElementById(id);
 const formatPct = (value) => `${Math.round(value * 100)}%`;
 const formatProb = (value) => `${(value * 100).toFixed(value >= 0.1 ? 0 : 1)}%`;
 const flagUrl = (team) => team?.countryCode ? `https://flagcdn.com/w40/${team.countryCode}.png` : "";
+const formatLiveTime = (value) => {
+  if (!value) return "";
+  try {
+    return new Intl.DateTimeFormat(currentLanguage === "en" ? "en-US" : "zh-CN", {
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit"
+    }).format(new Date(value));
+  } catch {
+    return value;
+  }
+};
 const teamTranslations = {
   墨西哥: "Mexico",
   南非: "South Africa",
@@ -1338,6 +1357,101 @@ function renderDataCredibility() {
   `;
 }
 
+function liveStatusLabel(status = {}) {
+  const short = status.short || "NS";
+  if (["1H", "2H", "ET", "BT", "P", "LIVE"].includes(short)) {
+    return status.elapsed ? `${status.elapsed}' 进行中` : "进行中";
+  }
+  if (["HT"].includes(short)) return "中场";
+  if (["FT", "AET", "PEN"].includes(short)) return "已结束";
+  if (["PST", "CANC", "ABD"].includes(short)) return status.long || "赛程变更";
+  return "未开赛";
+}
+
+function liveStatusClass(status = {}) {
+  const short = status.short || "NS";
+  if (["1H", "2H", "ET", "BT", "P", "LIVE"].includes(short)) return "is-live";
+  if (["FT", "AET", "PEN"].includes(short)) return "is-final";
+  return "is-scheduled";
+}
+
+function renderLiveMatches() {
+  const container = $("liveMatches");
+  const meta = $("liveMatchesMeta");
+  if (!container || !meta) return;
+
+  const matches = liveMatchData.matches || [];
+  const updated = liveMatchData.lastUpdated ? formatLiveTime(liveMatchData.lastUpdated) : "未同步";
+  const provider = liveMatchData.provider || "API-Football";
+
+  if (liveMatchData.status === "needs_api_key") {
+    meta.textContent = `${provider} 待接入 API Key · 当前显示占位状态`;
+    container.innerHTML = `
+      <article class="live-empty-card">
+        <strong>实时比分接口已预留</strong>
+        <span>把 API_FOOTBALL_KEY 添加到 GitHub Secrets 后，系统会自动拉取今日赛程、进行中比分和完场结果。</span>
+      </article>
+    `;
+    return;
+  }
+
+  if (liveMatchData.status === "error") {
+    meta.textContent = `${provider} 同步失败 · ${updated}`;
+    container.innerHTML = `<article class="live-empty-card"><strong>实时数据暂不可用</strong><span>${liveMatchData.message || "稍后自动重试。"}</span></article>`;
+    return;
+  }
+
+  meta.textContent = `${provider} · 最近同步 ${updated} · ${matches.length} 场`;
+
+  if (!matches.length) {
+    container.innerHTML = `<article class="live-empty-card"><strong>今天暂无已返回比赛</strong><span>有比赛日时会显示未开赛、进行中和已结束场次。</span></article>`;
+    return;
+  }
+
+  container.innerHTML = matches.map((match) => {
+    const statusClass = liveStatusClass(match.status);
+    const statusLabel = liveStatusLabel(match.status);
+    const homeGoals = match.goals?.home ?? "-";
+    const awayGoals = match.goals?.away ?? "-";
+    return `
+      <article class="live-match-card ${statusClass}">
+        <div class="live-match-status">
+          <span>${statusLabel}</span>
+          <small>${formatLiveTime(match.date)}</small>
+        </div>
+        <div class="live-score-row">
+          <strong>${match.home?.name || "Home"}</strong>
+          <b>${homeGoals} : ${awayGoals}</b>
+          <strong>${match.away?.name || "Away"}</strong>
+        </div>
+        <footer>${[match.venue, match.city].filter(Boolean).join(" · ") || "比赛地点待返回"}</footer>
+      </article>
+    `;
+  }).join("");
+}
+
+async function loadLiveMatches() {
+  const meta = $("liveMatchesMeta");
+  if (meta) meta.textContent = "正在读取实时比赛数据...";
+
+  try {
+    const response = await fetch(`data/live-matches.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    liveMatchData = await response.json();
+  } catch (error) {
+    liveMatchData = {
+      status: "error",
+      provider: "API-Football",
+      matches: [],
+      lastUpdated: new Date().toISOString(),
+      message: error.message
+    };
+  }
+
+  renderLiveMatches();
+  applyLanguage();
+}
+
 function renderContenders() {
   const ranked = state.teams.slice().sort((a, b) => teamScore(b) - teamScore(a)).slice(0, 10);
   const max = teamScore(ranked[0] ?? { elo: 1, attack: 1, defense: 1, form: 1 });
@@ -1849,6 +1963,7 @@ function renderAll() {
   renderTeamOptions();
   renderGroups();
   renderSummary();
+  renderLiveMatches();
   renderFocusMatches();
   renderContenders();
   renderFactorWeights();
@@ -1958,6 +2073,7 @@ $("swapTeams").addEventListener("click", () => {
 $("applyData").addEventListener("click", applyEditorData);
 $("runSimulation").addEventListener("click", () => renderSimulation(1500));
 $("exportReport").addEventListener("click", exportPredictionReport);
+$("refreshLiveMatches").addEventListener("click", loadLiveMatches);
 $("importDataFile").addEventListener("change", (event) => importDataFile(event.target.files[0]));
 $("closeTeamDialog").addEventListener("click", () => $("teamDialog").close());
 $("teamDialog").addEventListener("click", (event) => {
@@ -1985,3 +2101,4 @@ $("exportData").addEventListener("click", async () => {
 });
 
 renderAll();
+loadLiveMatches();

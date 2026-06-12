@@ -1,0 +1,40 @@
+name: Update live matches
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-live-matches:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch live matches
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_LEAGUE: "1"
+          API_FOOTBALL_SEASON: "2026"
+        run: node scripts/fetch-live-matches.js
+
+      - name: Validate live data
+        run: |
+          node --check scripts/fetch-live-matches.js
+          node -e "JSON.parse(require('fs').readFileSync('data/live-matches.json','utf8'))"
+
+      - name: Commit live data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update live match data"
+          file_pattern: data/live-matches.json
