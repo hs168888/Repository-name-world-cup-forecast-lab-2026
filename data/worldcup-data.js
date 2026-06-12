@@ -124,7 +124,7 @@ window.WORLD_CUP_DATA = {
     "土耳其": 12,
     "厄瓜多尔": 9,
     "奥地利": 23,
-    "韩国": 33,
+    "韩国": 26,
     "澳大利亚": 28,
     "阿尔及利亚": 29,
     "埃及": 48,
@@ -134,7 +134,7 @@ window.WORLD_CUP_DATA = {
     "科特迪瓦": 48,
     "瑞典": 42,
     "巴拉圭": 22,
-    "捷克": 35,
+    "捷克": 42,
     "苏格兰": 27,
     "突尼斯": 59,
     "刚果民主共和国": 55,
@@ -362,9 +362,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 75,
       "squadValue": 76,
       "setPieces": 74,
-      "elo": 1758,
-      "eloRank": 33,
-      "eloUpdated": "2026-06-03"
+      "elo": 1786,
+      "eloRank": 26,
+      "eloUpdated": "2026-06-11"
     },
     "加拿大": {
       "marketOdds": 151,
@@ -571,9 +571,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 75,
       "squadValue": 71,
       "setPieces": 82,
-      "elo": 1740,
-      "eloRank": 35,
-      "eloUpdated": "2026-06-04"
+      "elo": 1712,
+      "eloRank": 42,
+      "eloUpdated": "2026-06-11"
     },
     "南非": {
       "marketOdds": 501,
