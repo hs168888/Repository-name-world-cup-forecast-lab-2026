@@ -1,7 +1,224 @@
 {
-  "lastUpdated": "2026-06-23T22:20:46.657Z",
-  "provider": "API-Football",
-  "status": "needs_api_key",
-  "message": "Set API_FOOTBALL_KEY in GitHub Secrets to enable live World Cup fixtures.",
-  "matches": []
+  "lastUpdated": "2026-06-24T10:18:54.096Z",
+  "provider": "WorldCup26 public API",
+  "status": "ok_public",
+  "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
+  "matches": [
+    {
+      "id": "1",
+      "date": "06/11/2026 13:00",
+      "venue": "",
+      "city": "",
+      "group": "A",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "墨西哥",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "南非",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "2",
+      "date": "06/11/2026 20:00",
+      "venue": "",
+      "city": "",
+      "group": "A",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "韩国",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "捷克",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "3",
+      "date": "06/12/2026 15:00",
+      "venue": "",
+      "city": "",
+      "group": "B",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "加拿大",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "波黑",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "4",
+      "date": "06/12/2026 18:00",
+      "venue": "",
+      "city": "",
+      "group": "D",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "美国",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "巴拉圭",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "5",
+      "date": "06/13/2026 21:00",
+      "venue": "",
+      "city": "",
+      "group": "C",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "海地",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "苏格兰",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "6",
+      "date": "06/13/2026 21:00",
+      "venue": "",
+      "city": "",
+      "group": "D",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "澳大利亚",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "土耳其",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "7",
+      "date": "06/13/2026 18:00",
+      "venue": "",
+      "city": "",
+      "group": "C",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "巴西",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "摩洛哥",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "8",
+      "date": "06/13/2026 12:00",
+      "venue": "",
+      "city": "",
+      "group": "B",
+      "matchday": "1",
+      "status": {
+        "short": "FT",
+        "long": "Finished",
+        "elapsed": null
+      },
+      "home": {
+        "name": "卡塔尔",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "瑞士",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    }
+  ]
 }
