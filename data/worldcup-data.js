@@ -1,9 +1,17 @@
 window.WORLD_CUP_DATA = {
+<<<<<<< HEAD
   "lastUpdated": "2026-06-10",
   "rankingDate": "2026-06-10",
   "eloDate": "2026-06-10",
   "oddsDate": "2026-06-03",
   "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-10）",
+=======
+  "lastUpdated": "2026-06-11",
+  "rankingDate": "2026-06-11",
+  "eloDate": "2026-06-11",
+  "oddsDate": "2026-06-03",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-11）",
+>>>>>>> 1ff3077 (Update Elo data to 2026-06-11)
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -318,9 +326,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 78,
       "squadValue": 76,
       "setPieces": 78,
-      "elo": 1875,
+      "elo": 1881,
       "eloRank": 18,
-      "eloUpdated": "2026-06-04"
+      "eloUpdated": "2026-06-11"
     },
     "日本": {
       "marketOdds": 81,
@@ -582,9 +590,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 64,
       "setPieces": 72,
-      "elo": 1517,
+      "elo": 1511,
       "eloRank": 80,
-      "eloUpdated": "2026-06-06"
+      "eloUpdated": "2026-06-11"
     },
     "突尼斯": {
       "marketOdds": 501,

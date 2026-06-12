@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "lastUpdated": "2026-06-10",
   "rankingDate": "2026-06-10",
   "eloDate": "2026-06-10",
   "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-10）",
+=======
+  "lastUpdated": "2026-06-11",
+  "rankingDate": "2026-06-11",
+  "eloDate": "2026-06-11",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-11）",
+>>>>>>> 1ff3077 (Update Elo data to 2026-06-11)
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -78,14 +85,14 @@
   },
   "teamOverrides": {
     "墨西哥": {
-      "elo": 1875,
+      "elo": 1881,
       "eloRank": 18,
-      "eloUpdated": "2026-06-04"
+      "eloUpdated": "2026-06-11"
     },
     "南非": {
-      "elo": 1517,
+      "elo": 1511,
       "eloRank": 80,
-      "eloUpdated": "2026-06-06"
+      "eloUpdated": "2026-06-11"
     },
     "韩国": {
       "elo": 1758,
