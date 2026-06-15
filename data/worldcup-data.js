@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-06-13",
-  "rankingDate": "2026-06-13",
-  "eloDate": "2026-06-13",
+  "lastUpdated": "2026-06-15",
+  "rankingDate": "2026-06-15",
+  "eloDate": "2026-06-15",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-13）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-15）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -111,18 +111,18 @@ window.WORLD_CUP_DATA = {
     "荷兰": 8,
     "摩洛哥": 22,
     "比利时": 15,
-    "德国": 10,
+    "德国": 9,
     "克罗地亚": 12,
     "哥伦比亚": 7,
     "塞内加尔": 21,
     "墨西哥": 18,
     "美国": 26,
     "乌拉圭": 15,
-    "日本": 13,
+    "日本": 12,
     "瑞士": 19,
     "伊朗": 28,
     "土耳其": 21,
-    "厄瓜多尔": 9,
+    "厄瓜多尔": 15,
     "奥地利": 23,
     "韩国": 26,
     "澳大利亚": 23,
@@ -131,12 +131,12 @@ window.WORLD_CUP_DATA = {
     "加拿大": 33,
     "挪威": 11,
     "巴拿马": 37,
-    "科特迪瓦": 48,
-    "瑞典": 42,
+    "科特迪瓦": 37,
+    "瑞典": 35,
     "巴拉圭": 26,
     "捷克": 42,
     "苏格兰": 25,
-    "突尼斯": 59,
+    "突尼斯": 67,
     "刚果民主共和国": 55,
     "乌兹别克斯坦": 41,
     "卡塔尔": 90,
@@ -145,9 +145,9 @@ window.WORLD_CUP_DATA = {
     "沙特阿拉伯": 69,
     "约旦": 52,
     "波黑": 60,
-    "佛得角": 68,
+    "佛得角": 64,
     "加纳": 82,
-    "库拉索": 91,
+    "库拉索": 94,
     "海地": 75,
     "新西兰": 72
   },
@@ -169,7 +169,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-08"
     },
     "西班牙": {
-      "elo": 2157,
+      "elo": 2129,
       "marketOdds": 12,
       "attack": 91,
       "defense": 89,
@@ -177,7 +177,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 94,
       "setPieces": 78,
       "eloRank": 1,
-      "eloUpdated": "2026-06-08"
+      "eloUpdated": "2026-06-15"
     },
     "阿根廷": {
       "elo": 2115,
@@ -224,7 +224,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-13"
     },
     "荷兰": {
-      "elo": 1948,
+      "elo": 1944,
       "marketOdds": 19,
       "attack": 86,
       "defense": 87,
@@ -232,18 +232,18 @@ window.WORLD_CUP_DATA = {
       "squadValue": 88,
       "setPieces": 84,
       "eloRank": 8,
-      "eloUpdated": "2026-06-08"
+      "eloUpdated": "2026-06-14"
     },
     "德国": {
-      "elo": 1932,
+      "elo": 1939,
       "marketOdds": 14,
       "attack": 85,
       "defense": 83,
       "goalkeeper": 86,
       "squadValue": 90,
       "setPieces": 88,
-      "eloRank": 10,
-      "eloUpdated": "2026-06-06"
+      "eloRank": 9,
+      "eloUpdated": "2026-06-14"
     },
     "比利时": {
       "elo": 1894,
@@ -329,9 +329,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 76,
       "squadValue": 79,
       "setPieces": 75,
-      "elo": 1906,
-      "eloRank": 13,
-      "eloUpdated": "2026-05-31"
+      "elo": 1910,
+      "eloRank": 12,
+      "eloUpdated": "2026-06-14"
     },
     "瑞士": {
       "marketOdds": 91,
@@ -384,9 +384,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 76,
       "squadValue": 76,
       "setPieces": 75,
-      "elo": 1938,
-      "eloRank": 9,
-      "eloUpdated": "2026-06-07"
+      "elo": 1890,
+      "eloRank": 15,
+      "eloUpdated": "2026-06-14"
     },
     "奥地利": {
       "marketOdds": 151,
@@ -428,9 +428,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 74,
       "squadValue": 74,
       "setPieces": 75,
-      "elo": 1695,
-      "eloRank": 48,
-      "eloUpdated": "2026-06-04"
+      "elo": 1743,
+      "eloRank": 37,
+      "eloUpdated": "2026-06-14"
     },
     "挪威": {
       "marketOdds": 201,
@@ -560,9 +560,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 76,
       "squadValue": 73,
       "setPieces": 83,
-      "elo": 1712,
-      "eloRank": 42,
-      "eloUpdated": "2026-06-04"
+      "elo": 1755,
+      "eloRank": 35,
+      "eloUpdated": "2026-06-14"
     },
     "捷克": {
       "marketOdds": 501,
@@ -593,9 +593,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 74,
       "squadValue": 66,
       "setPieces": 74,
-      "elo": 1628,
-      "eloRank": 59,
-      "eloUpdated": "2026-06-06"
+      "elo": 1585,
+      "eloRank": 67,
+      "eloUpdated": "2026-06-14"
     },
     "伊拉克": {
       "marketOdds": 501,
@@ -659,9 +659,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 66,
       "squadValue": 58,
       "setPieces": 68,
-      "elo": 1434,
-      "eloRank": 91,
-      "eloUpdated": "2026-06-06"
+      "elo": 1427,
+      "eloRank": 94,
+      "eloUpdated": "2026-06-14"
     },
     "新西兰": {
       "marketOdds": 1001,
@@ -681,9 +681,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 62,
       "setPieces": 70,
-      "elo": 1578,
-      "eloRank": 68,
-      "eloUpdated": "2026-06-06"
+      "elo": 1606,
+      "eloRank": 64,
+      "eloUpdated": "2026-06-15"
     }
   },
   "countryCodes": {
