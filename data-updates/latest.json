@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-15",
-  "rankingDate": "2026-06-15",
-  "eloDate": "2026-06-15",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-15）",
+  "lastUpdated": "2026-06-16",
+  "rankingDate": "2026-06-16",
+  "eloDate": "2026-06-16",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-16）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -60,13 +60,13 @@
     "沙特阿拉伯": 66,
     "乌拉圭": 16,
     "法国": 3,
-    "塞内加尔": 21,
-    "挪威": 11,
-    "伊拉克": 63,
+    "塞内加尔": 23,
+    "挪威": 10,
+    "伊拉克": 66,
     "阿根廷": 2,
-    "阿尔及利亚": 29,
-    "奥地利": 23,
-    "约旦": 52,
+    "阿尔及利亚": 33,
+    "奥地利": 20,
+    "约旦": 54,
     "葡萄牙": 6,
     "乌兹别克斯坦": 41,
     "哥伦比亚": 7,
@@ -238,44 +238,44 @@
       "eloUpdated": "2026-06-15"
     },
     "法国": {
-      "elo": 2063,
+      "elo": 2084,
       "eloRank": 3,
-      "eloUpdated": "2026-06-08"
+      "eloUpdated": "2026-06-16"
     },
     "塞内加尔": {
-      "elo": 1860,
-      "eloRank": 21,
-      "eloUpdated": "2026-06-09"
+      "elo": 1839,
+      "eloRank": 23,
+      "eloUpdated": "2026-06-16"
     },
     "挪威": {
-      "elo": 1914,
-      "eloRank": 11,
-      "eloUpdated": "2026-06-07"
+      "elo": 1929,
+      "eloRank": 10,
+      "eloUpdated": "2026-06-16"
     },
     "伊拉克": {
-      "elo": 1607,
-      "eloRank": 63,
-      "eloUpdated": "2026-06-09"
+      "elo": 1592,
+      "eloRank": 66,
+      "eloUpdated": "2026-06-16"
     },
     "阿根廷": {
-      "elo": 2115,
+      "elo": 2128,
       "eloRank": 2,
-      "eloUpdated": "2026-06-09"
+      "eloUpdated": "2026-06-16"
     },
     "阿尔及利亚": {
-      "elo": 1772,
-      "eloRank": 29,
-      "eloUpdated": "2026-06-10"
+      "elo": 1759,
+      "eloRank": 33,
+      "eloUpdated": "2026-06-16"
     },
     "奥地利": {
-      "elo": 1830,
-      "eloRank": 23,
-      "eloUpdated": "2026-06-01"
+      "elo": 1857,
+      "eloRank": 20,
+      "eloUpdated": "2026-06-16"
     },
     "约旦": {
-      "elo": 1680,
-      "eloRank": 52,
-      "eloUpdated": "2026-06-07"
+      "elo": 1653,
+      "eloRank": 54,
+      "eloUpdated": "2026-06-16"
     },
     "葡萄牙": {
       "elo": 1989,
