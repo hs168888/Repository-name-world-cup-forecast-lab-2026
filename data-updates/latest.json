@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-16",
-  "rankingDate": "2026-06-16",
-  "eloDate": "2026-06-16",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-16）",
+  "lastUpdated": "2026-06-18",
+  "rankingDate": "2026-06-18",
+  "eloDate": "2026-06-18",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-18）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -27,14 +27,14 @@
     ]
   },
   "fifaRanks": {
-    "墨西哥": 18,
-    "南非": 80,
-    "韩国": 26,
-    "捷克": 42,
-    "加拿大": 33,
-    "瑞士": 19,
-    "卡塔尔": 90,
-    "波黑": 60,
+    "墨西哥": 12,
+    "南非": 79,
+    "韩国": 31,
+    "捷克": 48,
+    "加拿大": 29,
+    "瑞士": 14,
+    "卡塔尔": 91,
+    "波黑": 65,
     "巴西": 7,
     "摩洛哥": 22,
     "海地": 75,
@@ -67,55 +67,55 @@
     "阿尔及利亚": 33,
     "奥地利": 20,
     "约旦": 54,
-    "葡萄牙": 6,
-    "乌兹别克斯坦": 41,
-    "哥伦比亚": 7,
-    "刚果民主共和国": 55,
+    "葡萄牙": 7,
+    "乌兹别克斯坦": 48,
+    "哥伦比亚": 5,
+    "刚果民主共和国": 52,
     "英格兰": 4,
-    "克罗地亚": 12,
-    "加纳": 82,
-    "巴拿马": 37
+    "克罗地亚": 13,
+    "加纳": 73,
+    "巴拿马": 49
   },
   "teamOverrides": {
     "墨西哥": {
-      "elo": 1881,
-      "eloRank": 18,
-      "eloUpdated": "2026-06-11"
+      "elo": 1896,
+      "eloRank": 12,
+      "eloUpdated": "2026-06-18"
     },
     "南非": {
-      "elo": 1511,
-      "eloRank": 80,
-      "eloUpdated": "2026-06-11"
+      "elo": 1527,
+      "eloRank": 79,
+      "eloUpdated": "2026-06-18"
     },
     "韩国": {
-      "elo": 1786,
-      "eloRank": 26,
-      "eloUpdated": "2026-06-11"
+      "elo": 1771,
+      "eloRank": 31,
+      "eloUpdated": "2026-06-18"
     },
     "捷克": {
-      "elo": 1712,
-      "eloRank": 42,
-      "eloUpdated": "2026-06-11"
+      "elo": 1696,
+      "eloRank": 48,
+      "eloUpdated": "2026-06-18"
     },
     "加拿大": {
-      "elo": 1767,
-      "eloRank": 33,
-      "eloUpdated": "2026-06-12"
+      "elo": 1777,
+      "eloRank": 29,
+      "eloUpdated": "2026-06-18"
     },
     "瑞士": {
-      "elo": 1865,
-      "eloRank": 19,
-      "eloUpdated": "2026-06-13"
+      "elo": 1885,
+      "eloRank": 14,
+      "eloUpdated": "2026-06-18"
     },
     "卡塔尔": {
-      "elo": 1447,
-      "eloRank": 90,
-      "eloUpdated": "2026-06-13"
+      "elo": 1437,
+      "eloRank": 91,
+      "eloUpdated": "2026-06-18"
     },
     "波黑": {
-      "elo": 1616,
-      "eloRank": 60,
-      "eloUpdated": "2026-06-12"
+      "elo": 1596,
+      "eloRank": 65,
+      "eloUpdated": "2026-06-18"
     },
     "巴西": {
       "elo": 1978,
@@ -278,44 +278,44 @@
       "eloUpdated": "2026-06-16"
     },
     "葡萄牙": {
-      "elo": 1989,
-      "eloRank": 6,
-      "eloUpdated": "2026-06-10"
+      "elo": 1967,
+      "eloRank": 7,
+      "eloUpdated": "2026-06-17"
     },
     "乌兹别克斯坦": {
-      "elo": 1714,
-      "eloRank": 41,
-      "eloUpdated": "2026-06-08"
+      "elo": 1698,
+      "eloRank": 48,
+      "eloUpdated": "2026-06-17"
     },
     "哥伦比亚": {
-      "elo": 1982,
-      "eloRank": 7,
-      "eloUpdated": "2026-06-07"
+      "elo": 1998,
+      "eloRank": 5,
+      "eloUpdated": "2026-06-17"
     },
     "刚果民主共和国": {
-      "elo": 1652,
-      "eloRank": 55,
-      "eloUpdated": "2026-06-09"
+      "elo": 1674,
+      "eloRank": 52,
+      "eloUpdated": "2026-06-17"
     },
     "英格兰": {
-      "elo": 2024,
+      "elo": 2055,
       "eloRank": 4,
-      "eloUpdated": "2026-06-10"
+      "eloUpdated": "2026-06-17"
     },
     "克罗地亚": {
-      "elo": 1912,
-      "eloRank": 12,
-      "eloUpdated": "2026-06-07"
+      "elo": 1881,
+      "eloRank": 13,
+      "eloUpdated": "2026-06-17"
     },
     "加纳": {
-      "elo": 1510,
-      "eloRank": 82,
-      "eloUpdated": "2026-06-02"
+      "elo": 1557,
+      "eloRank": 73,
+      "eloUpdated": "2026-06-17"
     },
     "巴拿马": {
-      "elo": 1730,
-      "eloRank": 37,
-      "eloUpdated": "2026-06-06"
+      "elo": 1683,
+      "eloRank": 49,
+      "eloUpdated": "2026-06-17"
     }
   }
 }
