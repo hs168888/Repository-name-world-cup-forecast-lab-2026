@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-18",
-  "rankingDate": "2026-06-18",
-  "eloDate": "2026-06-18",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-18）",
+  "lastUpdated": "2026-06-19",
+  "rankingDate": "2026-06-19",
+  "eloDate": "2026-06-19",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-19）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -35,14 +35,14 @@
     "瑞士": 14,
     "卡塔尔": 91,
     "波黑": 65,
-    "巴西": 7,
-    "摩洛哥": 22,
-    "海地": 75,
-    "苏格兰": 25,
-    "美国": 26,
-    "巴拉圭": 26,
-    "澳大利亚": 23,
-    "土耳其": 21,
+    "巴西": 6,
+    "摩洛哥": 20,
+    "海地": 78,
+    "苏格兰": 31,
+    "美国": 23,
+    "巴拉圭": 24,
+    "澳大利亚": 26,
+    "土耳其": 25,
     "德国": 9,
     "库拉索": 94,
     "科特迪瓦": 37,
@@ -118,44 +118,44 @@
       "eloUpdated": "2026-06-18"
     },
     "巴西": {
-      "elo": 1978,
-      "eloRank": 7,
-      "eloUpdated": "2026-06-13"
+      "elo": 1986,
+      "eloRank": 6,
+      "eloUpdated": "2026-06-19"
     },
     "摩洛哥": {
-      "elo": 1840,
-      "eloRank": 22,
-      "eloUpdated": "2026-06-13"
+      "elo": 1866,
+      "eloRank": 20,
+      "eloUpdated": "2026-06-19"
     },
     "海地": {
-      "elo": 1536,
-      "eloRank": 75,
-      "eloUpdated": "2026-06-13"
+      "elo": 1528,
+      "eloRank": 78,
+      "eloUpdated": "2026-06-19"
     },
     "苏格兰": {
-      "elo": 1794,
-      "eloRank": 25,
-      "eloUpdated": "2026-06-13"
+      "elo": 1768,
+      "eloRank": 31,
+      "eloUpdated": "2026-06-19"
     },
     "美国": {
-      "elo": 1780,
-      "eloRank": 26,
-      "eloUpdated": "2026-06-12"
+      "elo": 1820,
+      "eloRank": 23,
+      "eloUpdated": "2026-06-19"
     },
     "巴拉圭": {
-      "elo": 1780,
-      "eloRank": 26,
-      "eloUpdated": "2026-06-12"
+      "elo": 1816,
+      "eloRank": 24,
+      "eloUpdated": "2026-06-19"
     },
     "澳大利亚": {
-      "elo": 1839,
-      "eloRank": 23,
-      "eloUpdated": "2026-06-13"
+      "elo": 1799,
+      "eloRank": 26,
+      "eloUpdated": "2026-06-19"
     },
     "土耳其": {
-      "elo": 1849,
-      "eloRank": 21,
-      "eloUpdated": "2026-06-13"
+      "elo": 1813,
+      "eloRank": 25,
+      "eloUpdated": "2026-06-19"
     },
     "德国": {
       "elo": 1939,
