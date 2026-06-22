@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T22:00:46.973Z",
+  "lastUpdated": "2026-06-22T16:17:25.662Z",
   "provider": "API-Football",
   "status": "needs_api_key",
   "message": "Set API_FOOTBALL_KEY in GitHub Secrets to enable live World Cup fixtures.",
