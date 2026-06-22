@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-20",
-  "rankingDate": "2026-06-20",
-  "eloDate": "2026-06-20",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-20）",
+  "lastUpdated": "2026-06-21",
+  "rankingDate": "2026-06-21",
+  "eloDate": "2026-06-21",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-21）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -52,13 +52,13 @@
     "突尼斯": 70,
     "瑞典": 39,
     "比利时": 15,
-    "埃及": 45,
-    "伊朗": 34,
-    "新西兰": 70,
+    "埃及": 36,
+    "伊朗": 33,
+    "新西兰": 73,
     "西班牙": 1,
-    "佛得角": 64,
-    "沙特阿拉伯": 66,
-    "乌拉圭": 16,
+    "佛得角": 58,
+    "沙特阿拉伯": 65,
+    "乌拉圭": 21,
     "法国": 3,
     "塞内加尔": 23,
     "挪威": 10,
@@ -198,44 +198,44 @@
       "eloUpdated": "2026-06-20"
     },
     "比利时": {
-      "elo": 1879,
+      "elo": 1869,
       "eloRank": 15,
-      "eloUpdated": "2026-06-15"
+      "eloUpdated": "2026-06-21"
     },
     "埃及": {
-      "elo": 1711,
-      "eloRank": 45,
-      "eloUpdated": "2026-06-15"
+      "elo": 1740,
+      "eloRank": 36,
+      "eloUpdated": "2026-06-21"
     },
     "伊朗": {
-      "elo": 1756,
-      "eloRank": 34,
-      "eloUpdated": "2026-06-15"
+      "elo": 1766,
+      "eloRank": 33,
+      "eloUpdated": "2026-06-21"
     },
     "新西兰": {
-      "elo": 1578,
-      "eloRank": 70,
-      "eloUpdated": "2026-06-15"
+      "elo": 1549,
+      "eloRank": 73,
+      "eloUpdated": "2026-06-21"
     },
     "西班牙": {
-      "elo": 2129,
+      "elo": 2134,
       "eloRank": 1,
-      "eloUpdated": "2026-06-15"
+      "eloUpdated": "2026-06-21"
     },
     "佛得角": {
-      "elo": 1606,
-      "eloRank": 64,
-      "eloUpdated": "2026-06-15"
+      "elo": 1625,
+      "eloRank": 58,
+      "eloUpdated": "2026-06-21"
     },
     "沙特阿拉伯": {
-      "elo": 1598,
-      "eloRank": 66,
-      "eloUpdated": "2026-06-15"
+      "elo": 1593,
+      "eloRank": 65,
+      "eloUpdated": "2026-06-21"
     },
     "乌拉圭": {
-      "elo": 1870,
-      "eloRank": 16,
-      "eloUpdated": "2026-06-15"
+      "elo": 1851,
+      "eloRank": 21,
+      "eloUpdated": "2026-06-21"
     },
     "法国": {
       "elo": 2084,
