@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T10:58:19.584Z",
+  "lastUpdated": "2026-06-24T17:31:52.652Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
@@ -27,8 +27,8 @@
         "winner": null
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       }
     },
     {
@@ -54,8 +54,35 @@
         "winner": null
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "50",
+      "date": "06/24/2026 18:00",
+      "venue": "",
+      "city": "",
+      "group": "C",
+      "matchday": "3",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "摩洛哥",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "海地",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": null,
+        "away": null
       }
     },
     {
@@ -81,16 +108,16 @@
         "winner": null
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       }
     },
     {
-      "id": "50",
-      "date": "06/24/2026 18:00",
+      "id": "52",
+      "date": "06/24/2026 19:00",
       "venue": "",
       "city": "",
-      "group": "C",
+      "group": "A",
       "matchday": "3",
       "status": {
         "short": "NS",
@@ -98,12 +125,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "摩洛哥",
+        "name": "捷克",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "海地",
+        "name": "墨西哥",
         "logo": "",
         "winner": null
       },
@@ -131,33 +158,6 @@
       },
       "away": {
         "name": "韩国",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "52",
-      "date": "06/24/2026 19:00",
-      "venue": "",
-      "city": "",
-      "group": "A",
-      "matchday": "3",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "捷克",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "墨西哥",
         "logo": "",
         "winner": null
       },
