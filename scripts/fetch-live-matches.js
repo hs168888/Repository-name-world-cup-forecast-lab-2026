@@ -69,6 +69,12 @@ function todayIso() {
   return new Date().toISOString().slice(0, 10);
 }
 
+function todayPublicDate() {
+  const value = process.env.LIVE_MATCH_DATE || todayIso();
+  const [year, month, day] = value.split("-");
+  return `${month}/${day}/${year}`;
+}
+
 function requestJson(pathname) {
   return new Promise((resolve, reject) => {
     const request = https.get(
@@ -232,14 +238,17 @@ async function fetchPublicWorldCupMatches() {
   const groupGames = games
     .filter((game) => game.type === "group")
     .map(normalizePublicGame);
-  const today = new Date().toISOString().slice(0, 10);
-  const activeOrRecent = groupGames.filter((match) => {
-    const status = match.status.short;
-    const matchDate = parsePublicDate(match.date);
-    return ["LIVE", "FT"].includes(status) || matchDate >= today;
-  });
+  const today = todayPublicDate();
+  const todayMatches = groupGames.filter((match) => String(match.date || "").startsWith(today));
 
-  return activeOrRecent.slice(0, 8);
+  if (todayMatches.length) {
+    return todayMatches.sort(comparePublicMatchTime).slice(0, 8);
+  }
+
+  return groupGames
+    .filter((match) => parsePublicDate(match.date) >= todayIso())
+    .sort(comparePublicMatchTime)
+    .slice(0, 8);
 }
 
 function parsePublicDate(value = "") {
@@ -247,6 +256,10 @@ function parsePublicDate(value = "") {
   const [month, day, year] = datePart.split("/");
   if (!year || !month || !day) return "9999-12-31";
   return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function comparePublicMatchTime(a, b) {
+  return String(a.date || "").localeCompare(String(b.date || ""));
 }
 
 async function main() {
