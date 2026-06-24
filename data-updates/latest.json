@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-22",
-  "rankingDate": "2026-06-22",
-  "eloDate": "2026-06-22",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-22）",
+  "lastUpdated": "2026-06-23",
+  "rankingDate": "2026-06-23",
+  "eloDate": "2026-06-23",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-23）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -67,14 +67,14 @@
     "阿尔及利亚": 27,
     "奥地利": 21,
     "约旦": 57,
-    "葡萄牙": 7,
-    "乌兹别克斯坦": 48,
+    "葡萄牙": 6,
+    "乌兹别克斯坦": 50,
     "哥伦比亚": 5,
-    "刚果民主共和国": 52,
+    "刚果民主共和国": 53,
     "英格兰": 4,
-    "克罗地亚": 13,
-    "加纳": 73,
-    "巴拿马": 49
+    "克罗地亚": 12,
+    "加纳": 69,
+    "巴拿马": 51
   },
   "teamOverrides": {
     "墨西哥": {
@@ -278,44 +278,44 @@
       "eloUpdated": "2026-06-22"
     },
     "葡萄牙": {
-      "elo": 1967,
-      "eloRank": 7,
-      "eloUpdated": "2026-06-17"
+      "elo": 1988,
+      "eloRank": 6,
+      "eloUpdated": "2026-06-23"
     },
     "乌兹别克斯坦": {
-      "elo": 1698,
-      "eloRank": 48,
-      "eloUpdated": "2026-06-17"
+      "elo": 1677,
+      "eloRank": 50,
+      "eloUpdated": "2026-06-23"
     },
     "哥伦比亚": {
-      "elo": 1998,
+      "elo": 2006,
       "eloRank": 5,
-      "eloUpdated": "2026-06-17"
+      "eloUpdated": "2026-06-23"
     },
     "刚果民主共和国": {
-      "elo": 1674,
-      "eloRank": 52,
-      "eloUpdated": "2026-06-17"
+      "elo": 1666,
+      "eloRank": 53,
+      "eloUpdated": "2026-06-23"
     },
     "英格兰": {
-      "elo": 2055,
+      "elo": 2028,
       "eloRank": 4,
-      "eloUpdated": "2026-06-17"
+      "eloUpdated": "2026-06-23"
     },
     "克罗地亚": {
-      "elo": 1881,
-      "eloRank": 13,
-      "eloUpdated": "2026-06-17"
+      "elo": 1896,
+      "eloRank": 12,
+      "eloUpdated": "2026-06-23"
     },
     "加纳": {
-      "elo": 1557,
-      "eloRank": 73,
-      "eloUpdated": "2026-06-17"
+      "elo": 1584,
+      "eloRank": 69,
+      "eloUpdated": "2026-06-23"
     },
     "巴拿马": {
-      "elo": 1683,
-      "eloRank": 49,
-      "eloUpdated": "2026-06-17"
+      "elo": 1668,
+      "eloRank": 51,
+      "eloUpdated": "2026-06-23"
     }
   }
 }
