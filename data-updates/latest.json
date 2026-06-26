@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-24",
-  "rankingDate": "2026-06-24",
-  "eloDate": "2026-06-24",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-24）",
+  "lastUpdated": "2026-06-25",
+  "rankingDate": "2026-06-25",
+  "eloDate": "2026-06-25",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-25）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -39,18 +39,18 @@
     "摩洛哥": 15,
     "海地": 81,
     "苏格兰": 33,
-    "美国": 23,
+    "美国": 26,
     "巴拉圭": 24,
-    "澳大利亚": 26,
-    "土耳其": 25,
-    "德国": 9,
-    "库拉索": 89,
-    "科特迪瓦": 38,
-    "厄瓜多尔": 20,
-    "荷兰": 7,
-    "日本": 11,
-    "突尼斯": 70,
-    "瑞典": 39,
+    "澳大利亚": 25,
+    "土耳其": 20,
+    "德国": 10,
+    "库拉索": 91,
+    "科特迪瓦": 35,
+    "厄瓜多尔": 14,
+    "荷兰": 8,
+    "日本": 13,
+    "突尼斯": 73,
+    "瑞典": 36,
     "比利时": 15,
     "埃及": 36,
     "伊朗": 33,
@@ -138,64 +138,64 @@
       "eloUpdated": "2026-06-24"
     },
     "美国": {
-      "elo": 1820,
-      "eloRank": 23,
-      "eloUpdated": "2026-06-19"
+      "elo": 1781,
+      "eloRank": 26,
+      "eloUpdated": "2026-06-25"
     },
     "巴拉圭": {
-      "elo": 1816,
+      "elo": 1815,
       "eloRank": 24,
-      "eloUpdated": "2026-06-19"
+      "eloUpdated": "2026-06-25"
     },
     "澳大利亚": {
-      "elo": 1799,
-      "eloRank": 26,
-      "eloUpdated": "2026-06-19"
+      "elo": 1800,
+      "eloRank": 25,
+      "eloUpdated": "2026-06-25"
     },
     "土耳其": {
-      "elo": 1813,
-      "eloRank": 25,
-      "eloUpdated": "2026-06-19"
+      "elo": 1852,
+      "eloRank": 20,
+      "eloUpdated": "2026-06-25"
     },
     "德国": {
-      "elo": 1954,
-      "eloRank": 9,
-      "eloUpdated": "2026-06-20"
+      "elo": 1916,
+      "eloRank": 10,
+      "eloUpdated": "2026-06-25"
     },
     "库拉索": {
-      "elo": 1453,
-      "eloRank": 89,
-      "eloUpdated": "2026-06-20"
+      "elo": 1438,
+      "eloRank": 91,
+      "eloUpdated": "2026-06-25"
     },
     "科特迪瓦": {
-      "elo": 1728,
-      "eloRank": 38,
-      "eloUpdated": "2026-06-20"
+      "elo": 1743,
+      "eloRank": 35,
+      "eloUpdated": "2026-06-25"
     },
     "厄瓜多尔": {
-      "elo": 1864,
-      "eloRank": 20,
-      "eloUpdated": "2026-06-20"
+      "elo": 1902,
+      "eloRank": 14,
+      "eloUpdated": "2026-06-25"
     },
     "荷兰": {
-      "elo": 1972,
-      "eloRank": 7,
-      "eloUpdated": "2026-06-20"
+      "elo": 1980,
+      "eloRank": 8,
+      "eloUpdated": "2026-06-25"
     },
     "日本": {
-      "elo": 1925,
-      "eloRank": 11,
-      "eloUpdated": "2026-06-20"
+      "elo": 1910,
+      "eloRank": 13,
+      "eloUpdated": "2026-06-25"
     },
     "突尼斯": {
-      "elo": 1570,
-      "eloRank": 70,
-      "eloUpdated": "2026-06-20"
+      "elo": 1562,
+      "eloRank": 73,
+      "eloUpdated": "2026-06-25"
     },
     "瑞典": {
-      "elo": 1727,
-      "eloRank": 39,
-      "eloUpdated": "2026-06-20"
+      "elo": 1742,
+      "eloRank": 36,
+      "eloUpdated": "2026-06-25"
     },
     "比利时": {
       "elo": 1869,
