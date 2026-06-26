@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-25T23:01:29.979Z",
+  "lastUpdated": "2026-06-26T21:51:25.128Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "55",
-      "date": "06/25/2026 16:00",
+      "id": "61",
+      "date": "06/26/2026 15:00",
       "venue": "",
       "city": "",
-      "group": "E",
+      "group": "I",
       "matchday": "3",
       "status": {
         "short": "FT",
@@ -17,26 +17,26 @@
         "elapsed": null
       },
       "home": {
-        "name": "库拉索",
+        "name": "塞内加尔",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "科特迪瓦",
+        "name": "伊拉克",
         "logo": "",
         "winner": null
       },
       "goals": {
-        "home": 0,
-        "away": 2
+        "home": 5,
+        "away": 0
       }
     },
     {
-      "id": "56",
-      "date": "06/25/2026 16:00",
+      "id": "62",
+      "date": "06/26/2026 15:00",
       "venue": "",
       "city": "",
-      "group": "E",
+      "group": "I",
       "matchday": "3",
       "status": {
         "short": "FT",
@@ -44,26 +44,26 @@
         "elapsed": null
       },
       "home": {
-        "name": "厄瓜多尔",
+        "name": "挪威",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "德国",
+        "name": "法国",
         "logo": "",
         "winner": null
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": 1,
+        "away": 4
       }
     },
     {
-      "id": "59",
-      "date": "06/25/2026 18:00",
+      "id": "66",
+      "date": "06/26/2026 18:00",
       "venue": "",
       "city": "",
-      "group": "F",
+      "group": "H",
       "matchday": "3",
       "status": {
         "short": "NS",
@@ -71,39 +71,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "日本",
+        "name": "乌拉圭",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "瑞典",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": "60",
-      "date": "06/25/2026 18:00",
-      "venue": "",
-      "city": "",
-      "group": "F",
-      "matchday": "3",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "突尼斯",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "荷兰",
+        "name": "西班牙",
         "logo": "",
         "winner": null
       },
@@ -113,11 +86,11 @@
       }
     },
     {
-      "id": "58",
-      "date": "06/25/2026 19:00",
+      "id": "65",
+      "date": "06/26/2026 19:00",
       "venue": "",
       "city": "",
-      "group": "D",
+      "group": "H",
       "matchday": "3",
       "status": {
         "short": "NS",
@@ -125,12 +98,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "土耳其",
+        "name": "佛得角",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "美国",
+        "name": "沙特阿拉伯",
         "logo": "",
         "winner": null
       },
@@ -140,11 +113,11 @@
       }
     },
     {
-      "id": "57",
-      "date": "06/25/2026 19:00",
+      "id": "63",
+      "date": "06/26/2026 20:00",
       "venue": "",
       "city": "",
-      "group": "D",
+      "group": "G",
       "matchday": "3",
       "status": {
         "short": "NS",
@@ -152,12 +125,39 @@
         "elapsed": null
       },
       "home": {
-        "name": "巴拉圭",
+        "name": "埃及",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "澳大利亚",
+        "name": "伊朗",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "64",
+      "date": "06/26/2026 20:00",
+      "venue": "",
+      "city": "",
+      "group": "G",
+      "matchday": "3",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "新西兰",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "比利时",
         "logo": "",
         "winner": null
       },
