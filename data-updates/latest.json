@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-25",
-  "rankingDate": "2026-06-25",
-  "eloDate": "2026-06-25",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-25）",
+  "lastUpdated": "2026-06-26",
+  "rankingDate": "2026-06-26",
+  "eloDate": "2026-06-26",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-06-26）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -58,11 +58,11 @@
     "西班牙": 1,
     "佛得角": 58,
     "沙特阿拉伯": 65,
-    "乌拉圭": 21,
+    "乌拉圭": 22,
     "法国": 3,
-    "塞内加尔": 23,
-    "挪威": 10,
-    "伊拉克": 68,
+    "塞内加尔": 21,
+    "挪威": 9,
+    "伊拉克": 73,
     "阿根廷": 1,
     "阿尔及利亚": 27,
     "奥地利": 21,
@@ -218,44 +218,44 @@
       "eloUpdated": "2026-06-21"
     },
     "西班牙": {
-      "elo": 2134,
+      "elo": 2144,
       "eloRank": 1,
-      "eloUpdated": "2026-06-21"
+      "eloUpdated": "2026-06-26"
     },
     "佛得角": {
-      "elo": 1625,
+      "elo": 1622,
       "eloRank": 58,
-      "eloUpdated": "2026-06-21"
+      "eloUpdated": "2026-06-26"
     },
     "沙特阿拉伯": {
-      "elo": 1593,
+      "elo": 1596,
       "eloRank": 65,
-      "eloUpdated": "2026-06-21"
+      "eloUpdated": "2026-06-26"
     },
     "乌拉圭": {
-      "elo": 1851,
-      "eloRank": 21,
-      "eloUpdated": "2026-06-21"
+      "elo": 1841,
+      "eloRank": 22,
+      "eloUpdated": "2026-06-26"
     },
     "法国": {
-      "elo": 2090,
+      "elo": 2123,
       "eloRank": 3,
-      "eloUpdated": "2026-06-22"
+      "eloUpdated": "2026-06-26"
     },
     "塞内加尔": {
-      "elo": 1817,
-      "eloRank": 23,
-      "eloUpdated": "2026-06-22"
+      "elo": 1842,
+      "eloRank": 21,
+      "eloUpdated": "2026-06-26"
     },
     "挪威": {
-      "elo": 1951,
-      "eloRank": 10,
-      "eloUpdated": "2026-06-22"
+      "elo": 1918,
+      "eloRank": 9,
+      "eloUpdated": "2026-06-26"
     },
     "伊拉克": {
-      "elo": 1586,
-      "eloRank": 68,
-      "eloUpdated": "2026-06-22"
+      "elo": 1561,
+      "eloRank": 73,
+      "eloUpdated": "2026-06-26"
     },
     "阿根廷": {
       "elo": 2144,
