@@ -66,7 +66,16 @@ function writePayload(payload) {
 }
 
 function todayIso() {
-  return new Date().toISOString().slice(0, 10);
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: process.env.LIVE_MATCH_TIMEZONE || "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  });
+  const parts = Object.fromEntries(
+    formatter.formatToParts(new Date()).map((part) => [part.type, part.value])
+  );
+  return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
 function todayPublicDate() {
@@ -235,9 +244,7 @@ function normalizePublicGame(game) {
 async function fetchPublicWorldCupMatches() {
   const payload = await requestPublicJson("/get/games");
   const games = payload.games || [];
-  const groupGames = games
-    .filter((game) => game.type === "group")
-    .map(normalizePublicGame);
+  const groupGames = games.map(normalizePublicGame);
   const today = todayPublicDate();
   const todayMatches = groupGames.filter((match) => String(match.date || "").startsWith(today));
 

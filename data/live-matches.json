@@ -1,7 +1,89 @@
 {
-  "lastUpdated": "2026-06-29T21:10:47.467Z",
+  "lastUpdated": "2026-06-30T08:41:20.033Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
-  "matches": []
+  "matches": [
+    {
+      "id": "78",
+      "date": "06/30/2026 12:00",
+      "venue": "",
+      "city": "",
+      "group": "R32",
+      "matchday": "4",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "科特迪瓦",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "挪威",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "77",
+      "date": "06/30/2026 17:00",
+      "venue": "",
+      "city": "",
+      "group": "R32",
+      "matchday": "4",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "法国",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "瑞典",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "79",
+      "date": "06/30/2026 19:00",
+      "venue": "",
+      "city": "",
+      "group": "R32",
+      "matchday": "4",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "墨西哥",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "厄瓜多尔",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    }
+  ]
 }
