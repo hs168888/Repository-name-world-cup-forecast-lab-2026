@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-30T08:41:20.033Z",
+  "lastUpdated": "2026-06-30T16:59:32.675Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "78",
-      "date": "06/30/2026 12:00",
+      "id": "80",
+      "date": "07/01/2026 12:00",
       "venue": "",
       "city": "",
       "group": "R32",
@@ -17,39 +17,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "科特迪瓦",
+        "name": "英格兰",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "挪威",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": "77",
-      "date": "06/30/2026 17:00",
-      "venue": "",
-      "city": "",
-      "group": "R32",
-      "matchday": "4",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "法国",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "瑞典",
+        "name": "刚果民主共和国",
         "logo": "",
         "winner": null
       },
@@ -59,8 +32,8 @@
       }
     },
     {
-      "id": "79",
-      "date": "06/30/2026 19:00",
+      "id": "82",
+      "date": "07/01/2026 13:00",
       "venue": "",
       "city": "",
       "group": "R32",
@@ -71,12 +44,39 @@
         "elapsed": null
       },
       "home": {
-        "name": "墨西哥",
+        "name": "比利时",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "厄瓜多尔",
+        "name": "塞内加尔",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "81",
+      "date": "07/01/2026 17:00",
+      "venue": "",
+      "city": "",
+      "group": "R32",
+      "matchday": "4",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "美国",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "波黑",
         "logo": "",
         "winner": null
       },
