@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-01T10:56:38.828Z",
+  "lastUpdated": "2026-07-01T18:25:34.575Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "80",
-      "date": "07/01/2026 12:00",
+      "id": "84",
+      "date": "07/02/2026 12:00",
       "venue": "",
       "city": "",
       "group": "R32",
@@ -17,12 +17,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "英格兰",
+        "name": "西班牙",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "刚果民主共和国",
+        "name": "奥地利",
         "logo": "",
         "winner": null
       },
@@ -32,8 +32,8 @@
       }
     },
     {
-      "id": "82",
-      "date": "07/01/2026 13:00",
+      "id": "83",
+      "date": "07/02/2026 19:00",
       "venue": "",
       "city": "",
       "group": "R32",
@@ -44,12 +44,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "比利时",
+        "name": "葡萄牙",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "塞内加尔",
+        "name": "克罗地亚",
         "logo": "",
         "winner": null
       },
@@ -59,8 +59,8 @@
       }
     },
     {
-      "id": "81",
-      "date": "07/01/2026 17:00",
+      "id": "85",
+      "date": "07/02/2026 20:00",
       "venue": "",
       "city": "",
       "group": "R32",
@@ -71,12 +71,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "美国",
+        "name": "瑞士",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "波黑",
+        "name": "阿尔及利亚",
         "logo": "",
         "winner": null
       },
