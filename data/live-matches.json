@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-07-03T08:38:38.804Z",
+  "lastUpdated": "2026-07-03T20:34:15.627Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "88",
-      "date": "07/03/2026 13:00",
+      "id": "90",
+      "date": "07/04/2026 12:00",
       "venue": "",
       "city": "",
-      "group": "R32",
-      "matchday": "4",
+      "group": "R16",
+      "matchday": "5",
       "status": {
         "short": "NS",
         "long": "Not Started",
         "elapsed": null
       },
       "home": {
-        "name": "澳大利亚",
+        "name": "加拿大",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "埃及",
+        "name": "摩洛哥",
         "logo": "",
         "winner": null
       },
@@ -32,51 +32,24 @@
       }
     },
     {
-      "id": "86",
-      "date": "07/03/2026 18:00",
+      "id": "89",
+      "date": "07/04/2026 17:00",
       "venue": "",
       "city": "",
-      "group": "R32",
-      "matchday": "4",
+      "group": "R16",
+      "matchday": "5",
       "status": {
         "short": "NS",
         "long": "Not Started",
         "elapsed": null
       },
       "home": {
-        "name": "阿根廷",
+        "name": "巴拉圭",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "佛得角",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "87",
-      "date": "07/03/2026 20:30",
-      "venue": "",
-      "city": "",
-      "group": "R32",
-      "matchday": "4",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "哥伦比亚",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "加纳",
+        "name": "法国",
         "logo": "",
         "winner": null
       },
