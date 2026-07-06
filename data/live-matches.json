@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-06T14:03:59.446Z",
+  "lastUpdated": "2026-07-06T21:01:50.653Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "93",
-      "date": "07/06/2026 14:00",
+      "id": "95",
+      "date": "07/07/2026 12:00",
       "venue": "",
       "city": "",
       "group": "R16",
@@ -17,23 +17,23 @@
         "elapsed": null
       },
       "home": {
-        "name": "葡萄牙",
+        "name": "阿根廷",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "西班牙",
+        "name": "埃及",
         "logo": "",
         "winner": null
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
-      "id": "94",
-      "date": "07/06/2026 17:00",
+      "id": "96",
+      "date": "07/07/2026 13:00",
       "venue": "",
       "city": "",
       "group": "R16",
@@ -44,18 +44,18 @@
         "elapsed": null
       },
       "home": {
-        "name": "美国",
+        "name": "瑞士",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "比利时",
+        "name": "哥伦比亚",
         "logo": "",
         "winner": null
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     }
   ]
