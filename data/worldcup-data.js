@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-07-05",
-  "rankingDate": "2026-07-05",
-  "eloDate": "2026-07-05",
+  "lastUpdated": "2026-07-06",
+  "rankingDate": "2026-07-06",
+  "eloDate": "2026-07-06",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-05）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-06）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -110,13 +110,13 @@ window.WORLD_CUP_DATA = {
     "巴西": 7,
     "荷兰": 8,
     "摩洛哥": 12,
-    "比利时": 12,
+    "比利时": 10,
     "德国": 12,
     "克罗地亚": 16,
     "哥伦比亚": 7,
     "塞内加尔": 24,
     "墨西哥": 12,
-    "美国": 26,
+    "美国": 31,
     "乌拉圭": 22,
     "日本": 15,
     "瑞士": 9,
@@ -169,7 +169,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-04"
     },
     "西班牙": {
-      "elo": 2159,
+      "elo": 2177,
       "marketOdds": 12,
       "attack": 91,
       "defense": 89,
@@ -177,7 +177,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 94,
       "setPieces": 78,
       "eloRank": 1,
-      "eloUpdated": "2026-07-02"
+      "eloUpdated": "2026-07-06"
     },
     "阿根廷": {
       "elo": 2151,
@@ -202,7 +202,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-05"
     },
     "葡萄牙": {
-      "elo": 2013,
+      "elo": 1995,
       "marketOdds": 16,
       "attack": 90,
       "defense": 85,
@@ -210,7 +210,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 92,
       "setPieces": 84,
       "eloRank": 6,
-      "eloUpdated": "2026-07-02"
+      "eloUpdated": "2026-07-06"
     },
     "巴西": {
       "elo": 1993,
@@ -246,15 +246,15 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-29"
     },
     "比利时": {
-      "elo": 1910,
+      "elo": 1961,
       "marketOdds": 31,
       "attack": 84,
       "defense": 80,
       "goalkeeper": 82,
       "squadValue": 86,
       "setPieces": 82,
-      "eloRank": 12,
-      "eloUpdated": "2026-07-01"
+      "eloRank": 10,
+      "eloUpdated": "2026-07-06"
     },
     "摩洛哥": {
       "elo": 1921,
@@ -274,9 +274,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 78,
       "squadValue": 80,
       "setPieces": 77,
-      "elo": 1798,
-      "eloRank": 26,
-      "eloUpdated": "2026-07-01"
+      "elo": 1747,
+      "eloRank": 31,
+      "eloUpdated": "2026-07-06"
     },
     "克罗地亚": {
       "marketOdds": 41,
