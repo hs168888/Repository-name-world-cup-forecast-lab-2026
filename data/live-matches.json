@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T21:57:35.637Z",
+  "lastUpdated": "2026-07-07T23:10:26.045Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
@@ -103,7 +103,7 @@
         "winner": null
       },
       "away": {
-        "name": "Winner Match 96",
+        "name": "瑞士",
         "logo": "",
         "winner": null
       },
