@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-10T15:03:48.698Z",
+  "lastUpdated": "2026-07-10T18:48:09.582Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "98",
-      "date": "07/10/2026 12:00",
+      "id": "99",
+      "date": "07/11/2026 17:00",
       "venue": "",
       "city": "",
       "group": "QF",
@@ -17,12 +17,39 @@
         "elapsed": null
       },
       "home": {
-        "name": "西班牙",
+        "name": "挪威",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "比利时",
+        "name": "英格兰",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "100",
+      "date": "07/11/2026 20:00",
+      "venue": "",
+      "city": "",
+      "group": "QF",
+      "matchday": "6",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "阿根廷",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "瑞士",
         "logo": "",
         "winner": null
       },
