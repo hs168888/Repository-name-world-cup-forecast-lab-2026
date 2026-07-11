@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-07-09",
-  "rankingDate": "2026-07-09",
-  "eloDate": "2026-07-09",
+  "lastUpdated": "2026-07-10",
+  "rankingDate": "2026-07-10",
+  "eloDate": "2026-07-10",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-09）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-10）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -110,7 +110,7 @@ window.WORLD_CUP_DATA = {
     "巴西": 7,
     "荷兰": 8,
     "摩洛哥": 14,
-    "比利时": 10,
+    "比利时": 11,
     "德国": 12,
     "克罗地亚": 16,
     "哥伦比亚": 5,
@@ -169,7 +169,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-09"
     },
     "西班牙": {
-      "elo": 2177,
+      "elo": 2190,
       "marketOdds": 12,
       "attack": 91,
       "defense": 89,
@@ -177,7 +177,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 94,
       "setPieces": 78,
       "eloRank": 1,
-      "eloUpdated": "2026-07-06"
+      "eloUpdated": "2026-07-10"
     },
     "阿根廷": {
       "elo": 2156,
@@ -246,15 +246,15 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-29"
     },
     "比利时": {
-      "elo": 1961,
+      "elo": 1948,
       "marketOdds": 31,
       "attack": 84,
       "defense": 80,
       "goalkeeper": 82,
       "squadValue": 86,
       "setPieces": 82,
-      "eloRank": 10,
-      "eloUpdated": "2026-07-06"
+      "eloRank": 11,
+      "eloUpdated": "2026-07-10"
     },
     "摩洛哥": {
       "elo": 1901,
