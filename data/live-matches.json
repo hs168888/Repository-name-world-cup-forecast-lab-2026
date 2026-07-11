@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-07-11T15:25:54.783Z",
+  "lastUpdated": "2026-07-11T16:28:19.054Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "99",
-      "date": "07/11/2026 17:00",
+      "id": "101",
+      "date": "07/14/2026 14:00",
       "venue": "",
       "city": "",
-      "group": "QF",
-      "matchday": "6",
+      "group": "SF",
+      "matchday": "7",
       "status": {
         "short": "NS",
-        "long": "live",
+        "long": "Not Started",
         "elapsed": null
       },
       "home": {
-        "name": "挪威",
+        "name": "法国",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "英格兰",
+        "name": "西班牙",
         "logo": "",
         "winner": null
       },
@@ -32,24 +32,78 @@
       }
     },
     {
-      "id": "100",
-      "date": "07/11/2026 20:00",
+      "id": "102",
+      "date": "07/15/2026 15:00",
       "venue": "",
       "city": "",
-      "group": "QF",
-      "matchday": "6",
+      "group": "SF",
+      "matchday": "7",
       "status": {
         "short": "NS",
         "long": "Not Started",
         "elapsed": null
       },
       "home": {
-        "name": "阿根廷",
+        "name": "Winner Match 99",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "瑞士",
+        "name": "Winner Match 100",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "103",
+      "date": "07/18/2026 17:00",
+      "venue": "",
+      "city": "",
+      "group": "3RD",
+      "matchday": "8",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "Loser Match 101",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "Loser Match 102",
+        "logo": "",
+        "winner": null
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "104",
+      "date": "07/19/2026 15:00",
+      "venue": "",
+      "city": "",
+      "group": "FINAL",
+      "matchday": "9",
+      "status": {
+        "short": "NS",
+        "long": "Not Started",
+        "elapsed": null
+      },
+      "home": {
+        "name": "Winner Match 101",
+        "logo": "",
+        "winner": null
+      },
+      "away": {
+        "name": "Winner Match 102",
         "logo": "",
         "winner": null
       },
