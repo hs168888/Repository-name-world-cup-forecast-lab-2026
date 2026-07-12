@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-10",
-  "rankingDate": "2026-07-10",
-  "eloDate": "2026-07-10",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-10）",
+  "lastUpdated": "2026-07-11",
+  "rankingDate": "2026-07-11",
+  "eloDate": "2026-07-11",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-11）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -61,7 +61,7 @@
     "乌拉圭": 22,
     "法国": 2,
     "塞内加尔": 24,
-    "挪威": 8,
+    "挪威": 9,
     "伊拉克": 73,
     "阿根廷": 2,
     "阿尔及利亚": 32,
@@ -83,7 +83,7 @@
       "eloUpdated": "2026-07-05"
     },
     "南非": {
-      "elo": 1560,
+      "elo": 1559,
       "eloRank": 73,
       "eloUpdated": "2026-06-28"
     },
@@ -158,7 +158,7 @@
       "eloUpdated": "2026-06-25"
     },
     "德国": {
-      "elo": 1907,
+      "elo": 1908,
       "eloRank": 12,
       "eloUpdated": "2026-06-29"
     },
@@ -248,9 +248,9 @@
       "eloUpdated": "2026-07-01"
     },
     "挪威": {
-      "elo": 1972,
-      "eloRank": 8,
-      "eloUpdated": "2026-07-05"
+      "elo": 1951,
+      "eloRank": 9,
+      "eloUpdated": "2026-07-11"
     },
     "伊拉克": {
       "elo": 1561,
@@ -298,12 +298,12 @@
       "eloUpdated": "2026-07-01"
     },
     "英格兰": {
-      "elo": 2076,
+      "elo": 2097,
       "eloRank": 4,
-      "eloUpdated": "2026-07-05"
+      "eloUpdated": "2026-07-11"
     },
     "克罗地亚": {
-      "elo": 1881,
+      "elo": 1882,
       "eloRank": 16,
       "eloUpdated": "2026-07-02"
     },

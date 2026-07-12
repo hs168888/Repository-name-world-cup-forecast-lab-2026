@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-07-10",
-  "rankingDate": "2026-07-10",
-  "eloDate": "2026-07-10",
+  "lastUpdated": "2026-07-11",
+  "rankingDate": "2026-07-11",
+  "eloDate": "2026-07-11",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-10）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-11）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -129,7 +129,7 @@ window.WORLD_CUP_DATA = {
     "阿尔及利亚": 32,
     "埃及": 34,
     "加拿大": 38,
-    "挪威": 8,
+    "挪威": 9,
     "巴拿马": 52,
     "科特迪瓦": 39,
     "瑞典": 38,
@@ -191,7 +191,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-07"
     },
     "英格兰": {
-      "elo": 2076,
+      "elo": 2097,
       "marketOdds": 9.5,
       "attack": 89,
       "defense": 88,
@@ -199,7 +199,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 95,
       "setPieces": 90,
       "eloRank": 4,
-      "eloUpdated": "2026-07-05"
+      "eloUpdated": "2026-07-11"
     },
     "葡萄牙": {
       "elo": 1995,
@@ -235,7 +235,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-29"
     },
     "德国": {
-      "elo": 1907,
+      "elo": 1908,
       "marketOdds": 14,
       "attack": 85,
       "defense": 83,
@@ -285,7 +285,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 80,
       "squadValue": 82,
       "setPieces": 83,
-      "elo": 1881,
+      "elo": 1882,
       "eloRank": 16,
       "eloUpdated": "2026-07-02"
     },
@@ -439,9 +439,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 76,
       "squadValue": 82,
       "setPieces": 80,
-      "elo": 1972,
-      "eloRank": 8,
-      "eloUpdated": "2026-07-05"
+      "elo": 1951,
+      "eloRank": 9,
+      "eloUpdated": "2026-07-11"
     },
     "巴拉圭": {
       "marketOdds": 251,
@@ -582,7 +582,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 64,
       "setPieces": 72,
-      "elo": 1560,
+      "elo": 1559,
       "eloRank": 73,
       "eloUpdated": "2026-06-28"
     },
