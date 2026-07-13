@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T15:59:58.440Z",
+  "lastUpdated": "2026-07-13T18:03:33.970Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
@@ -23,87 +23,6 @@
       },
       "away": {
         "name": "西班牙",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "102",
-      "date": "07/15/2026 15:00",
-      "venue": "",
-      "city": "",
-      "group": "SF",
-      "matchday": "7",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "英格兰",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "阿根廷",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "103",
-      "date": "07/18/2026 17:00",
-      "venue": "",
-      "city": "",
-      "group": "3RD",
-      "matchday": "8",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "Loser Match 101",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "Loser Match 102",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "104",
-      "date": "07/19/2026 15:00",
-      "venue": "",
-      "city": "",
-      "group": "FINAL",
-      "matchday": "9",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "Winner Match 101",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "Winner Match 102",
         "logo": "",
         "winner": null
       },
