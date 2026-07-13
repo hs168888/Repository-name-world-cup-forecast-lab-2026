@@ -180,7 +180,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-10"
     },
     "阿根廷": {
-      "elo": 2156,
+      "elo": 2177,
       "marketOdds": 7.5,
       "attack": 90,
       "defense": 88,
@@ -188,7 +188,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 93,
       "setPieces": 81,
       "eloRank": 2,
-      "eloUpdated": "2026-07-07"
+      "eloUpdated": "2026-07-11"
     },
     "英格兰": {
       "elo": 2097,
@@ -340,9 +340,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 80,
       "squadValue": 78,
       "setPieces": 80,
-      "elo": 1949,
+      "elo": 1928,
       "eloRank": 11,
-      "eloUpdated": "2026-07-07"
+      "eloUpdated": "2026-07-11"
     },
     "塞内加尔": {
       "marketOdds": 101,
