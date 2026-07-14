@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-14T15:48:48.029Z",
+  "lastUpdated": "2026-07-14T17:22:29.634Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
   "matches": [
     {
-      "id": "101",
-      "date": "07/14/2026 14:00",
+      "id": "102",
+      "date": "07/15/2026 15:00",
       "venue": "",
       "city": "",
       "group": "SF",
@@ -17,12 +17,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "法国",
+        "name": "英格兰",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "西班牙",
+        "name": "阿根廷",
         "logo": "",
         "winner": null
       },
