@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T15:20:06.860Z",
+  "lastUpdated": "2026-07-17T16:41:44.853Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
@@ -23,33 +23,6 @@
       },
       "away": {
         "name": "英格兰",
-        "logo": "",
-        "winner": null
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": "104",
-      "date": "07/19/2026 15:00",
-      "venue": "",
-      "city": "",
-      "group": "FINAL",
-      "matchday": "9",
-      "status": {
-        "short": "NS",
-        "long": "Not Started",
-        "elapsed": null
-      },
-      "home": {
-        "name": "西班牙",
-        "logo": "",
-        "winner": null
-      },
-      "away": {
-        "name": "阿根廷",
         "logo": "",
         "winner": null
       },
