@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T10:22:54.424Z",
+  "lastUpdated": "2026-07-17T11:53:49.196Z",
   "provider": "WorldCup26 public API",
   "status": "ok_public",
   "message": "Using a no-key public World Cup 2026 feed. Add API_FOOTBALL_KEY later for commercial live events.",
@@ -17,12 +17,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "Loser Match 101",
+        "name": "法国",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "Loser Match 102",
+        "name": "英格兰",
         "logo": "",
         "winner": null
       },
@@ -44,12 +44,12 @@
         "elapsed": null
       },
       "home": {
-        "name": "Winner Match 101",
+        "name": "西班牙",
         "logo": "",
         "winner": null
       },
       "away": {
-        "name": "Winner Match 102",
+        "name": "阿根廷",
         "logo": "",
         "winner": null
       },
