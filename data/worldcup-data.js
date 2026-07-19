@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-07-15",
-  "rankingDate": "2026-07-15",
-  "eloDate": "2026-07-15",
+  "lastUpdated": "2026-07-18",
+  "rankingDate": "2026-07-18",
+  "eloDate": "2026-07-18",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-15）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-18）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -102,10 +102,10 @@ window.WORLD_CUP_DATA = {
     ]
   },
   "fifaRanks": {
-    "法国": 3,
+    "法国": 4,
     "西班牙": 1,
     "阿根廷": 2,
-    "英格兰": 4,
+    "英格兰": 3,
     "葡萄牙": 6,
     "巴西": 7,
     "荷兰": 8,
@@ -158,15 +158,15 @@ window.WORLD_CUP_DATA = {
   ],
   "teamOverrides": {
     "法国": {
-      "elo": 2121,
+      "elo": 2070,
       "marketOdds": 6.5,
       "attack": 94,
       "defense": 91,
       "goalkeeper": 88,
       "squadValue": 96,
       "setPieces": 82,
-      "eloRank": 3,
-      "eloUpdated": "2026-07-14"
+      "eloRank": 4,
+      "eloUpdated": "2026-07-18"
     },
     "西班牙": {
       "elo": 2232,
@@ -191,15 +191,15 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-15"
     },
     "英格兰": {
-      "elo": 2074,
+      "elo": 2125,
       "marketOdds": 9.5,
       "attack": 89,
       "defense": 88,
       "goalkeeper": 83,
       "squadValue": 95,
       "setPieces": 90,
-      "eloRank": 4,
-      "eloUpdated": "2026-07-15"
+      "eloRank": 3,
+      "eloUpdated": "2026-07-18"
     },
     "葡萄牙": {
       "elo": 1995,
