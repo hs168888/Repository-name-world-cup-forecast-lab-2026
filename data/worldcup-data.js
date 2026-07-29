@@ -246,7 +246,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-06-29"
     },
     "比利时": {
-      "elo": 1948,
+      "elo": 1947,
       "marketOdds": 31,
       "attack": 84,
       "defense": 80,
@@ -285,7 +285,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 80,
       "squadValue": 82,
       "setPieces": 83,
-      "elo": 1882,
+      "elo": 1881,
       "eloRank": 16,
       "eloUpdated": "2026-07-02"
     },
@@ -428,7 +428,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 74,
       "squadValue": 74,
       "setPieces": 75,
-      "elo": 1727,
+      "elo": 1728,
       "eloRank": 39,
       "eloUpdated": "2026-06-30"
     },
@@ -538,7 +538,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 72,
       "squadValue": 68,
       "setPieces": 73,
-      "elo": 1631,
+      "elo": 1630,
       "eloRank": 56,
       "eloUpdated": "2026-06-27"
     },
@@ -549,7 +549,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 69,
       "squadValue": 68,
       "setPieces": 72,
-      "elo": 1570,
+      "elo": 1571,
       "eloRank": 68,
       "eloUpdated": "2026-07-03"
     },
@@ -582,7 +582,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 64,
       "setPieces": 72,
-      "elo": 1559,
+      "elo": 1560,
       "eloRank": 73,
       "eloUpdated": "2026-06-28"
     },
