@@ -141,7 +141,7 @@ window.WORLD_CUP_DATA = {
     "乌兹别克斯坦": 56,
     "卡塔尔": 99,
     "伊拉克": 73,
-    "南非": 73,
+    "南非": 72,
     "沙特阿拉伯": 65,
     "约旦": 57,
     "波黑": 63,
@@ -439,7 +439,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 76,
       "squadValue": 82,
       "setPieces": 80,
-      "elo": 1951,
+      "elo": 1952,
       "eloRank": 9,
       "eloUpdated": "2026-07-11"
     },
@@ -583,7 +583,7 @@ window.WORLD_CUP_DATA = {
       "squadValue": 64,
       "setPieces": 72,
       "elo": 1560,
-      "eloRank": 73,
+      "eloRank": 72,
       "eloUpdated": "2026-06-28"
     },
     "突尼斯": {
@@ -604,7 +604,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 63,
       "setPieces": 71,
-      "elo": 1561,
+      "elo": 1560,
       "eloRank": 73,
       "eloUpdated": "2026-06-26"
     },
