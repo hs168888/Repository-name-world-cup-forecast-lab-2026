@@ -439,7 +439,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 76,
       "squadValue": 82,
       "setPieces": 80,
-      "elo": 1951,
+      "elo": 1952,
       "eloRank": 9,
       "eloUpdated": "2026-07-11"
     },
@@ -538,7 +538,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 72,
       "squadValue": 68,
       "setPieces": 73,
-      "elo": 1631,
+      "elo": 1630,
       "eloRank": 56,
       "eloUpdated": "2026-06-27"
     },
