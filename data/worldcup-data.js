@@ -116,7 +116,7 @@ window.WORLD_CUP_DATA = {
     "哥伦比亚": 5,
     "塞内加尔": 24,
     "墨西哥": 12,
-    "美国": 31,
+    "美国": 32,
     "乌拉圭": 22,
     "日本": 15,
     "瑞士": 11,
@@ -274,8 +274,8 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 78,
       "squadValue": 80,
       "setPieces": 77,
-      "elo": 1747,
-      "eloRank": 31,
+      "elo": 1746,
+      "eloRank": 32,
       "eloUpdated": "2026-07-06"
     },
     "克罗地亚": {
