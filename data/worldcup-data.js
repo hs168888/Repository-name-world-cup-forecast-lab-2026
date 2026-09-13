@@ -224,7 +224,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-05"
     },
     "荷兰": {
-      "elo": 1971,
+      "elo": 1970,
       "marketOdds": 19,
       "attack": 86,
       "defense": 87,
@@ -417,7 +417,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 74,
       "squadValue": 67,
       "setPieces": 80,
-      "elo": 1795,
+      "elo": 1794,
       "eloRank": 26,
       "eloUpdated": "2026-07-03"
     },
@@ -516,7 +516,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 74,
       "squadValue": 70,
       "setPieces": 82,
-      "elo": 1746,
+      "elo": 1745,
       "eloRank": 33,
       "eloUpdated": "2026-06-24"
     },
@@ -538,7 +538,7 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 72,
       "squadValue": 68,
       "setPieces": 73,
-      "elo": 1630,
+      "elo": 1631,
       "eloRank": 56,
       "eloUpdated": "2026-06-27"
     },
