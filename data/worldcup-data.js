@@ -224,7 +224,7 @@ window.WORLD_CUP_DATA = {
       "eloUpdated": "2026-07-05"
     },
     "荷兰": {
-      "elo": 1970,
+      "elo": 1971,
       "marketOdds": 19,
       "attack": 86,
       "defense": 87,
