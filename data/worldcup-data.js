@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-07-19",
-  "rankingDate": "2026-07-19",
-  "eloDate": "2026-07-19",
+  "lastUpdated": "2026-09-23",
+  "rankingDate": "2026-09-23",
+  "eloDate": "2026-09-23",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-07-19）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-09-23）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -527,9 +527,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 66,
       "setPieces": 71,
-      "elo": 1596,
+      "elo": 1600,
       "eloRank": 65,
-      "eloUpdated": "2026-06-26"
+      "eloUpdated": "2026-09-23"
     },
     "乌兹别克斯坦": {
       "marketOdds": 301,
@@ -604,9 +604,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 63,
       "setPieces": 71,
-      "elo": 1561,
+      "elo": 1556,
       "eloRank": 73,
-      "eloUpdated": "2026-06-26"
+      "eloUpdated": "2026-09-23"
     },
     "约旦": {
       "marketOdds": 501,
