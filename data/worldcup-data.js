@@ -1,9 +1,9 @@
 window.WORLD_CUP_DATA = {
-  "lastUpdated": "2026-09-29",
-  "rankingDate": "2026-09-29",
-  "eloDate": "2026-09-29",
+  "lastUpdated": "2026-09-30",
+  "rankingDate": "2026-09-30",
+  "eloDate": "2026-09-30",
   "oddsDate": "2026-06-03",
-  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-09-29）",
+  "sourceLabel": "2026 真实分组与赛程；球队强度每日自动同步 World Football Elo（非临场实时，2026-09-30）",
   "dataQuality": {
     "confirmed": [
       "2026 A-L 分组",
@@ -116,7 +116,7 @@ window.WORLD_CUP_DATA = {
     "哥伦比亚": 5,
     "塞内加尔": 23,
     "墨西哥": 12,
-    "美国": 31,
+    "美国": 29,
     "乌拉圭": 20,
     "日本": 14,
     "瑞士": 9,
@@ -139,9 +139,9 @@ window.WORLD_CUP_DATA = {
     "突尼斯": 78,
     "刚果民主共和国": 40,
     "乌兹别克斯坦": 54,
-    "卡塔尔": 92,
+    "卡塔尔": 90,
     "伊拉克": 74,
-    "南非": 68,
+    "南非": 66,
     "沙特阿拉伯": 55,
     "约旦": 58,
     "波黑": 52,
@@ -274,9 +274,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 78,
       "squadValue": 80,
       "setPieces": 77,
-      "elo": 1757,
-      "eloRank": 31,
-      "eloUpdated": "2026-09-26"
+      "elo": 1766,
+      "eloRank": 29,
+      "eloUpdated": "2026-09-29"
     },
     "克罗地亚": {
       "marketOdds": 41,
@@ -318,9 +318,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 78,
       "squadValue": 76,
       "setPieces": 78,
-      "elo": 1916,
+      "elo": 1910,
       "eloRank": 12,
-      "eloUpdated": "2026-09-26"
+      "eloUpdated": "2026-09-29"
     },
     "日本": {
       "marketOdds": 81,
@@ -582,9 +582,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 64,
       "setPieces": 72,
-      "elo": 1570,
-      "eloRank": 68,
-      "eloUpdated": "2026-09-26"
+      "elo": 1579,
+      "eloRank": 66,
+      "eloUpdated": "2026-09-30"
     },
     "突尼斯": {
       "marketOdds": 501,
@@ -637,9 +637,9 @@ window.WORLD_CUP_DATA = {
       "goalkeeper": 70,
       "squadValue": 65,
       "setPieces": 72,
-      "elo": 1449,
-      "eloRank": 92,
-      "eloUpdated": "2026-09-27"
+      "elo": 1456,
+      "eloRank": 90,
+      "eloUpdated": "2026-09-30"
     },
     "海地": {
       "marketOdds": 1001,
